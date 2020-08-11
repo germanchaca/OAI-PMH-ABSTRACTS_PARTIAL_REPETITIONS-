@@ -1,0 +1,27 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Doctorado-Materias-BRD-TP.aux
+The style file: IEEEtran.bst
+Database file #1: IEEEabrv.bib
+Database file #2: lnitemplate.bib
+Database file #3: propia.bib
+Repeated entry---line 360 of file propia.bib
+ : @inproceedings{lopez2011ontologias
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 367 of file propia.bib
+ : @article{sanchez2005ontologias
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 494 of file propia.bib
+ : @inproceedings{monostori2000document
+ :                                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 530 of file propia.bib
+ : @inproceedings{forman2005finding
+ :                                 ,
+I'm skipping whatever remains of this entry
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+
+Done.
+(There were 4 error messages)

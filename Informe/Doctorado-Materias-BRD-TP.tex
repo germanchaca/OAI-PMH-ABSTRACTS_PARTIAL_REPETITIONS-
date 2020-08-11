@@ -1,0 +1,580 @@
+
+%% bare_conf.tex
+%% V1.3
+%% 2007/01/11
+%% by Michael Shell
+%% See:
+%% http://www.michaelshell.org/
+%% for current contact information.
+%%
+%% This is a skeleton file demonstrating the use of IEEEtran.cls
+%% (requires IEEEtran.cls version 1.7 or later) with an IEEE conference paper.
+%%
+%% Support sites:
+%% http://www.michaelshell.org/tex/ieeetran/
+%% http://www.ctan.org/tex-archive/macros/latex/contrib/IEEEtran/
+%% and
+%% http://www.ieee.org/
+
+%%*************************************************************************
+%% Legal Notice:
+%% This code is offered as-is without any warranty either expressed or
+%% implied; without even the implied warranty of MERCHANTABILITY or
+%% FITNESS FOR A PARTICULAR PURPOSE! 
+%% User assumes all risk.
+%% In no event shall IEEE or any contributor to this code be liable for
+%% any damages or losses, including, but not limited to, incidental,
+%% consequential, or any other damages, resulting from the use or misuse
+%% of any information contained here.
+%%
+%% All comments are the opinions of their respective authors and are not
+%% necessarily endorsed by the IEEE.
+%%
+%% This work is distributed under the LaTeX Project Public License (LPPL)
+%% ( http://www.latex-project.org/ ) version 1.3, and may be freely used,
+%% distributed and modified. A copy of the LPPL, version 1.3, is included
+%% in the base LaTeX documentation of all distributions of LaTeX released
+%% 2003/12/01 or later.
+%% Retain all contribution notices and credits.
+%% ** Modified files should be clearly indicated as such, including  **
+%% ** renaming them and changing author support contact information. **
+%%
+%% File list of work: IEEEtran.cls, IEEEtran_HOWTO.pdf, bare_adv.tex,
+%%                    bare_conf.tex, bare_jrnl.tex, bare_jrnl_compsoc.tex
+%%*************************************************************************
+
+% *** Authors should verify (and, if needed, correct) their LaTeX system  ***
+% *** with the testflow diagnostic prior to trusting their LaTeX platform ***
+% *** with production work. IEEE's font choices can trigger bugs that do  ***
+% *** not appear when using other class files.                            ***
+% The testflow support page is at:
+% http://www.michaelshell.org/tex/testflow/
+
+
+
+% Note that the a4paper option is mainly intended so that authors in
+% countries using A4 can easily print to A4 and see how their papers will
+% look in print - the typesetting of the document will not typically be
+% affected with changes in paper size (but the bottom and side margins will).
+% Use the testflow package mentioned above to verify correct handling of
+% both paper sizes by the user's LaTeX system.
+%
+% Also note that the "draftcls" or "draftclsnofoot", not "draft", option
+% should be used if it is desired that the figures are to be displayed in
+% draft mode.
+%
+\documentclass[spanish,conference]{IEEEtran}
+% Add the compsoc option for Computer Society conferences.
+%
+% If IEEEtran.cls has not been installed into the LaTeX system files,
+% manually specify the path to it like:
+% \documentclass[conference]{../sty/IEEEtran}
+
+
+
+
+
+% Some very useful LaTeX packages include:
+% (uncomment the ones you want to load)
+
+
+% *** MISC UTILITY PACKAGES ***
+%
+%\usepackage{ifpdf}
+% Heiko Oberdiek's ifpdf.sty is very useful if you need conditional
+% compilation based on whether the output is pdf or dvi.
+% usage:
+% \ifpdf
+%   % pdf code
+% \else
+%   % dvi code
+% \fi
+% The latest version of ifpdf.sty can be obtained from:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/oberdiek/
+% Also, note that IEEEtran.cls V1.7 and later provides a builtin
+% \ifCLASSINFOpdf conditional that works the same way.
+% When switching from latex to pdflatex and vice-versa, the compiler may
+% have to be run twice to clear warning/error messages.
+
+
+
+
+
+
+% *** CITATION PACKAGES ***
+%
+\usepackage{cite}
+% cite.sty was written by Donald Arseneau
+% V1.6 and later of IEEEtran pre-defines the format of the cite.sty package
+% \cite{} output to follow that of IEEE. Loading the cite package will
+% result in citation numbers being automatically sorted and properly
+% "compressed/ranged". e.g., [1], [9], [2], [7], [5], [6] without using
+% cite.sty will become [1], [2], [5]--[7], [9] using cite.sty. cite.sty's
+% \cite will automatically add leading space, if needed. Use cite.sty's
+% noadjust option (cite.sty V3.8 and later) if you want to turn this off.
+% cite.sty is already installed on most LaTeX systems. Be sure and use
+% version 4.0 (2003-05-27) and later if using hyperref.sty. cite.sty does
+% not currently provide for hyperlinked citations.
+% The latest version can be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/cite/
+% The documentation is contained in the cite.sty file itself.
+
+
+
+
+
+
+% *** GRAPHICS RELATED PACKAGES ***
+%
+\ifCLASSINFOpdf
+  % \usepackage[pdftex]{graphicx}
+  % declare the path(s) where your graphic files are
+  % \graphicspath{{../pdf/}{../jpeg/}}
+  % and their extensions so you won't have to specify these with
+  % every instance of \includegraphics
+  % \DeclareGraphicsExtensions{.pdf,.jpeg,.png}
+\else
+  % or other class option (dvipsone, dvipdf, if not using dvips). graphicx
+  % will default to the driver specified in the system graphics.cfg if no
+  % driver is specified.
+  % \usepackage[dvips]{graphicx}
+  % declare the path(s) where your graphic files are
+  % \graphicspath{{../eps/}}
+  % and their extensions so you won't have to specify these with
+  % every instance of \includegraphics
+  % \DeclareGraphicsExtensions{.eps}
+\fi
+% graphicx was written by David Carlisle and Sebastian Rahtz. It is
+% required if you want graphics, photos, etc. graphicx.sty is already
+% installed on most LaTeX systems. The latest version and documentation can
+% be obtained at: 
+% http://www.ctan.org/tex-archive/macros/latex/required/graphics/
+% Another good source of documentation is "Using Imported Graphics in
+% LaTeX2e" by Keith Reckdahl which can be found as epslatex.ps or
+% epslatex.pdf at: http://www.ctan.org/tex-archive/info/
+%
+% latex, and pdflatex in dvi mode, support graphics in encapsulated
+% postscript (.eps) format. pdflatex in pdf mode supports graphics
+% in .pdf, .jpeg, .png and .mps (metapost) formats. Users should ensure
+% that all non-photo figures use a vector format (.eps, .pdf, .mps) and
+% not a bitmapped formats (.jpeg, .png). IEEE frowns on bitmapped formats
+% which can result in "jaggedy"/blurry rendering of lines and letters as
+% well as large increases in file sizes.
+%
+% You can find documentation about the pdfTeX application at:
+% http://www.tug.org/applications/pdftex
+
+
+
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage{color,colortbl}
+\usepackage{bm}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+%\usepackage{natbib}
+
+\usepackage[spanish]{babel}
+
+\usepgfplotslibrary{fillbetween}
+
+\usepackage{draftwatermark}
+
+
+\definecolor{lgray}{cmyk}{0,0,0,0.1}
+
+\inputencoding{utf8}
+
+
+% *** MATH PACKAGES ***
+%
+%\usepackage[cmex10]{amsmath}
+% A popular package from the American Mathematical Society that provides
+% many useful and powerful commands for dealing with mathematics. If using
+% it, be sure to load this package with the cmex10 option to ensure that
+% only type 1 fonts will utilized at all point sizes. Without this option,
+% it is possible that some math symbols, particularly those within
+% footnotes, will be rendered in bitmap form which will result in a
+% document that can not be IEEE Xplore compliant!
+%
+% Also, note that the amsmath package sets \interdisplaylinepenalty to 10000
+% thus preventing page breaks from occurring within multiline equations. Use:
+%\interdisplaylinepenalty=2500
+% after loading amsmath to restore such page breaks as IEEEtran.cls normally
+% does. amsmath.sty is already installed on most LaTeX systems. The latest
+% version and documentation can be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/required/amslatex/math/
+
+
+
+
+
+% *** SPECIALIZED LIST PACKAGES ***
+%
+%\usepackage{algorithmic}
+% algorithmic.sty was written by Peter Williams and Rogerio Brito.
+% This package provides an algorithmic environment fo describing algorithms.
+% You can use the algorithmic environment in-text or within a figure
+% environment to provide for a floating algorithm. Do NOT use the algorithm
+% floating environment provided by algorithm.sty (by the same authors) or
+% algorithm2e.sty (by Christophe Fiorio) as IEEE does not use dedicated
+% algorithm float types and packages that provide these will not provide
+% correct IEEE style captions. The latest version and documentation of
+% algorithmic.sty can be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/algorithms/
+% There is also a support site at:
+% http://algorithms.berlios.de/index.html
+% Also of interest may be the (relatively newer and more customizable)
+% algorithmicx.sty package by Szasz Janos:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/algorithmicx/
+
+
+
+
+% *** ALIGNMENT PACKAGES ***
+%
+%\usepackage{array}
+% Frank Mittelbach's and David Carlisle's array.sty patches and improves
+% the standard LaTeX2e array and tabular environments to provide better
+% appearance and additional user controls. As the default LaTeX2e table
+% generation code is lacking to the point of almost being broken with
+% respect to the quality of the end results, all users are strongly
+% advised to use an enhanced (at the very least that provided by array.sty)
+% set of table tools. array.sty is already installed on most systems. The
+% latest version and documentation can be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/required/tools/
+
+
+%\usepackage{mdwmath}
+%\usepackage{mdwtab}
+% Also highly recommended is Mark Wooding's extremely powerful MDW tools,
+% especially mdwmath.sty and mdwtab.sty which are used to format equations
+% and tables, respectively. The MDWtools set is already installed on most
+% LaTeX systems. The lastest version and documentation is available at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/mdwtools/
+
+
+% IEEEtran contains the IEEEeqnarray family of commands that can be used to
+% generate multiline equations as well as matrices, tables, etc., of high
+% quality.
+
+
+%\usepackage{eqparbox}
+% Also of notable interest is Scott Pakin's eqparbox package for creating
+% (automatically sized) equal width boxes - aka "natural width parboxes".
+% Available at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/eqparbox/
+
+
+
+
+
+% *** SUBFIGURE PACKAGES ***
+%\usepackage[tight,footnotesize]{subfigure}
+% subfigure.sty was written by Steven Douglas Cochran. This package makes it
+% easy to put subfigures in your figures. e.g., "Figure 1a and 1b". For IEEE
+% work, it is a good idea to load it with the tight package option to reduce
+% the amount of white space around the subfigures. subfigure.sty is already
+% installed on most LaTeX systems. The latest version and documentation can
+% be obtained at:
+% http://www.ctan.org/tex-archive/obsolete/macros/latex/contrib/subfigure/
+% subfigure.sty has been superceeded by subfig.sty.
+
+
+
+%\usepackage[caption=false]{caption}
+%\usepackage[font=footnotesize]{subfig}
+% subfig.sty, also written by Steven Douglas Cochran, is the modern
+% replacement for subfigure.sty. However, subfig.sty requires and
+% automatically loads Axel Sommerfeldt's caption.sty which will override
+% IEEEtran.cls handling of captions and this will result in nonIEEE style
+% figure/table captions. To prevent this problem, be sure and preload
+% caption.sty with its "caption=false" package option. This is will preserve
+% IEEEtran.cls handing of captions. Version 1.3 (2005/06/28) and later 
+% (recommended due to many improvements over 1.2) of subfig.sty supports
+% the caption=false option directly:
+%\usepackage[caption=false,font=footnotesize]{subfig}
+%
+% The latest version and documentation can be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/subfig/
+% The latest version and documentation of caption.sty can be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/caption/
+
+
+
+
+% *** FLOAT PACKAGES ***
+%
+%\usepackage{fixltx2e}
+% fixltx2e, the successor to the earlier fix2col.sty, was written by
+% Frank Mittelbach and David Carlisle. This package corrects a few problems
+% in the LaTeX2e kernel, the most notable of which is that in current
+% LaTeX2e releases, the ordering of single and double column floats is not
+% guaranteed to be preserved. Thus, an unpatched LaTeX2e can allow a
+% single column figure to be placed prior to an earlier double column
+% figure. The latest version and documentation can be found at:
+% http://www.ctan.org/tex-archive/macros/latex/base/
+
+
+
+%\usepackage{stfloats}
+% stfloats.sty was written by Sigitas Tolusis. This package gives LaTeX2e
+% the ability to do double column floats at the bottom of the page as well
+% as the top. (e.g., "\begin{figure*}[!b]" is not normally possible in
+% LaTeX2e). It also provides a command:
+%\fnbelowfloat
+% to enable the placement of footnotes below bottom floats (the standard
+% LaTeX2e kernel puts them above bottom floats). This is an invasive package
+% which rewrites many portions of the LaTeX2e float routines. It may not work
+% with other packages that modify the LaTeX2e float routines. The latest
+% version and documentation can be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/sttools/
+% Documentation is contained in the stfloats.sty comments as well as in the
+% presfull.pdf file. Do not use the stfloats baselinefloat ability as IEEE
+% does not allow \baselineskip to stretch. Authors submitting work to the
+% IEEE should note that IEEE rarely uses double column equations and
+% that authors should try to avoid such use. Do not be tempted to use the
+% cuted.sty or midfloat.sty packages (also by Sigitas Tolusis) as IEEE does
+% not format its papers in such ways.
+
+
+
+
+
+% *** PDF, URL AND HYPERLINK PACKAGES ***
+%
+%\usepackage{url}
+% url.sty was written by Donald Arseneau. It provides better support for
+% handling and breaking URLs. url.sty is already installed on most LaTeX
+% systems. The latest version can be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/misc/
+% Read the url.sty source comments for usage information. Basically,
+% \url{my_url_here}.
+
+
+
+
+
+% *** Do not adjust lengths that control margins, column widths, etc. ***
+% *** Do not use packages that alter fonts (such as pslatex).         ***
+% There should be no need to do such things with IEEEtran.cls V1.6 and later.
+% (Unless specifically asked to do so by the journal or conference you plan
+% to submit to, of course. )
+
+
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+
+\begin{document}
+%
+% paper title
+% can use linebreaks \\ within to get better formatting as desired
+\title{Detección automática de repeticiones parciales en repositorios digitales
+\\ 
+{\vspace{10mm} \large{Trabajo práctico final de la materia\\Bibliotecas y Repositorios Digitales\\Mayo 2020\\ \\Docente: Dra. Marisa R. de Giusti}}
+}
+
+
+
+
+% author names and affiliations
+% use a multiple column layout for up to three different
+% affiliations
+\author{
+	Nahuel González \\
+	\\
+	Laboratorio de Sistemas de Información Avanzados \\
+	Facultad de Ingeniería, Universidad de Buenos Aires \\
+	Ciudad Autónoma de Buenos Aires, Argentina \\
+	ngonzalez@lsia.fi.uba.ar \\
+	\vspace{15mm}
+}
+
+% conference papers do not typically use \thanks and this command
+% is locked out in conference mode. If really needed, such as for
+% the acknowledgment of grants, issue a \IEEEoverridecommandlockouts
+% after \documentclass
+
+% for over three affiliations, or if they all won't fit within the width
+% of the page, use this alternative format:
+% 
+%\author{\IEEEauthorblockN{Michael Shell\IEEEauthorrefmark{1},
+%Homer Simpson\IEEEauthorrefmark{2},
+%James Kirk\IEEEauthorrefmark{3}, 
+%Montgomery Scott\IEEEauthorrefmark{3} and
+%Eldon Tyrell\IEEEauthorrefmark{4}}
+%\IEEEauthorblockA{\IEEEauthorrefmark{1}School of Electrical and Computer Engineering\\
+%Georgia Institute of Technology,
+%Atlanta, Georgia 30332--0250\\ Email: see http://www.michaelshell.org/contact.html}
+%\IEEEauthorblockA{\IEEEauthorrefmark{2}Twentieth Century Fox, Springfield, USA\\
+%Email: homer@thesimpsons.com}
+%\IEEEauthorblockA{\IEEEauthorrefmark{3}Starfleet Academy, San Francisco, California 96678-2391\\
+%Telephone: (800) 555--1212, Fax: (888) 555--1212}
+%\IEEEauthorblockA{\IEEEauthorrefmark{4}Tyrell Inc., 123 Replicant Street, Los Angeles, California 90210--4321}}
+
+
+
+
+% use for special paper notices
+%\IEEEspecialpapernotice{(Invited Paper)}
+
+
+
+
+% make the title area
+\maketitle
+
+
+
+
+\begin{abstract}
+%\boldmath
+A medida que crece el tamaño de los repositorios digitales y otros tipos de archivo digital, ya sea gestionados por instituciones públicas o empresas privadas en el transcurso de su funcionamiento diario, la posibilidad de verificar la ausencia de repeticiones en el contenido en forma manual y exhaustiva deja de ser posible. Las repeticiones puede ser maliciosas, como en la copia y el plagio, o involuntarias; en ambos casos, tanto la persecución de la calidad del contenido como la minimización del esfuerzo de conservación invitan a su detección temprana por medio de herramientas automáticas. 
+El caso más simple de repetición lo constituye una repetición total; más sutiles son los casos de repetición parcial, o no aparentes como dos archivos de audio en distinta calidad. Sin embargo, el primero dista de ser trivial si el tamaño del repositorio no es pequeño. No sólo los manuscritos son pasibles de repetición total y parcial, o diversos grados de similaridad, sino también muchos otros tipos de objetos digitales como el código fuente. Asimismo, dos colecciones pueden contener archivos a los fines prácticos completamente idénticos pero cuyos bitstreams difieren notoriamente. En este trabajo se reseñarán las técnicas utilizadas con éxito para la detección de repeticiones totales y parciales en repositorios digitales, con énfasis en el análisis de textos, y se discutirán los resultados de aplicar \todo{GERMÁN, COMPLETAR} sobre el repositorio del SEDICI.
+
+\end{abstract}
+% IEEEtran.cls defaults to using nonbold math in the Abstract.
+% This preserves the distinction between vectors and scalars. However,
+% if the conference you are submitting to favors bold math in the abstract,
+% then you can use LaTeX's standard command \boldmath at the very start
+% of the abstract to achieve this. Many IEEE journals/conferences frown on
+% math in the abstract anyway.
+
+% no keywords
+
+
+
+
+% For peer review papers, you can put extra information on the cover
+% page as needed:
+% \ifCLASSOPTIONpeerreview
+% \begin{center} \bfseries EDICS Category: 3-BBND \end{center}
+% \fi
+%
+% For peerreview papers, this IEEEtran command inserts a page break and
+% creates the second title. It will be ignored for other modes.
+\IEEEpeerreviewmaketitle
+
+
+\newcommand{\onlyInLongArticle}[1]{\ifdefined\LONGARTICLE #1 \fi}
+\newcommand{\shortAndLongArticleVersion}[2]{\ifdefined\LONGARTICLE #2 \else #1 \fi}
+\newcommand{\paragraphSeparator}{\ifdefined\LONGARTICLE 
+
+\else 
+
+\fi}
+
+
+\newcommand{\todo}[1]{\textcolor{red}{\textbf{TODO: #1}}}
+
+
+\section{Introducción}
+
+A medida que crece el tamaño de los repositorios digitales y otros tipos de archivo digital, ya sea gestionados por instituciones públicas o empresas privadas en el transcurso de su funcionamiento diario, la posibilidad de verificar la ausencia de repeticiones en el contenido en forma manual y exhaustiva deja de ser posible. Las repeticiones puede ser maliciosas, como en la copia y el plagio, o involuntarias; en ambos casos, tanto la persecución de la calidad del contenido como la minimización del esfuerzo de conservación invitan a su detección temprana por medio de herramientas automáticas. 
+
+El caso más simple de repetición lo constituye una repetición total; un archivo que se encuentra en dos o más colecciones. Más sutiles son los casos de repetición parcial, o no aparentes como dos archivos de audio en distinta calidad. Sin embargo, el primero dista de ser trivial si el tamaño del repositorio no es pequeño. El desafío que presenta consiste en que durante el flujo normal de trabajo humano el conocimiento sobre qué documentos se encuentran relacionados se pierde a menudo \cite{forman2005finding}. Lo que es más, si se trata de colecciones de millones de documentos (muchos de los cuáles no contienen metadatos o los contienen en forma incompleta) que son periódicamente unificadas o divididas, el costo computacional y a veces el tiempo requerido para la identificación de repeticiones no es despreciable y se debe recurrir a técnicas escalables que consideran fragmentos de archivos embebidos en grafos bipartitos \cite{forman2005finding} o árboles de sufijos \cite{monostori2000document}. \\
+
+La detección de repeticiones parciales es relevante para la detección temprana del plagio. Una política institucional que exija autoarchivo de las publicaciones producidas por sus investigadores en combinación con herramientas y procesos de detección de repeticiones parciales en textos y otros objetos digitales puede prevenir en ocasiones el plagio malicioso o el no intencional \cite{chowdhury2018plagiarism}. Considérese, por ejemplo, la infame instancia de plagio flagrante en la introducción de \cite{lopez2011ontologias}: \\
+
+\emph{``La arquitectura dirigida por modelos (MDA) y las ontologías son dos de los recursos cada vez más populares dentro de la comunidad informática para el desarrollo de sistemas de software. La MDA presenta un marco de trabajo para crear aplicaciones informáticas. Paralelamente, las ontologías devienen en recursos cuya función es facilitar la interacción entre herramientas de software heterogéneas.''} \\
+
+que es un mera paráfrasis, indisimulada y carente de referencias al artículo original \cite{sanchez2005ontologias} donde podemos leer:
+
+\emph{``La arquitectura dirigida por modelos (MDA) y las ontologías  constituyen  dos  de  los  recursos  más populares   dentro   de   la   comunidad   informática actual para el desarrollo de sistemas de información.  MDA  presenta  un  marco  de  trabajo para  crear  soluciones  informáticas. A  su  vez,  las Ontologías son recursos para facilitar la interoperabilidad  entre  herramientas  de  software heterogéneas.''} \\
+
+Configura una jocosa ironía académica el hecho de que precisamente las arquitecturas dirigidas por modelos y las ontologías hayan encontrado extendida utilización para la detección de plagios como el que antecede. Por ejemplo, la identificación de copias en segmentos de tesis puede ser llevada a cabo, con cierto éxito, mediante el entrenamiento de ontologías adecuadas al campo de estudio\cite{nie2005ontology}. Algunas de estas técnicas son lo suficientemente poderosas como para no limitarse a la detección de copia o paráfrasis sin cita adecuada, como en \cite{do2015domain}, sino también para detectar la más difusa apropiación de ideas \cite{deepika2011knowledge}. Una interesante reseña de las técnicas existentes hasta hace algunos años puede encontrarse en \cite{eisa2015existing}. Incluso técnicas de vanguardia como las redes neuronales han encontrado aplicación a este problema \cite{subroto2014plagiarism}. \\
+
+Aunque a primera vista parezcan similares, los problemas de detección de duplicaciones internas en repositorios digitales y de descubrimiento de plagio no deben ser tratados en la misma forma. No sólo en el objetivo, donde en el primer caso nos encontramos ante la necesidad de mejorar la calidad del contenido y minimizar los esfuerzos de conservación evitando redundancias, mientras que en el segundo buscamos evitar la inclusión del material que infrige la ética de publicación. La diferencia fundamental es que en el primer caso realizamos comparaciones estrictamente internas dentro de un único repositorio (posiblemente federado, como se describe en la sección siguiente) y esperamos quizás encontrar múltiples versiones de un documento con la misma autoría, o incluso párrafos reutilizados. En el segundo, en contraste, se requieren datos externos de otros repositorios y bases de datos, y se requieren en un volumen que posiblemente supere en al menos un orden de magnitud al encontrado en el repositorio considerado. Si bien las técnicas de detección no difieren sustancialmente, en este trabajo nos concentraremos en la detección de repeticiones o similaridades dentro de un único repositorio, y no la comparación con repositorios externos en busca de plagio. \\
+
+No sólo los manuscritos son pasibles de repetición total o parcial, o diversos grados de similaridad, sino también muchos otros tipos de objetos digitales. La repetición de código fuente es un problema en crecimiento que afecta sobre todo a las universidades, a medida que más estudiantes copian el software de otras tesis anteriores o de fuentes en internet \cite{smeureanu2013source}. Esta práctica no sólo reduce la calidad del resultado sino que también puede producir disputas de propiedad intelectual. Es claramente imposible buscar similaridades en el código fuente en forma manual, pero herramientas como \emph{OWL Web Ontology Language} \cite{bechhofer2004owl} -que un estándar W3- en combinación con el lenguaje de consulta SPARQL se han mostrado exitosas para eliminar y restringir, o al menos detectar tempranamente, el plagio de código fuente en tesis de grado, maestría, y doctorado \cite{smeureanu2013source}. Asimismo, dos colecciones pueden contener archivos a los fines prácticos completamente idénticos pero cuyos bitstreams difieren notoriamente. Dos archivos de audio en distinta calidad, dos imágenes idénticas en distintos formatos, dos documentos que sólo difieran en el título, ejemplifican posibles reiteraciones cuya detección, en los casos en los que fuera posible, demandaría ingenio y gran potencia de cómputo. \\
+
+En este trabajo se reseñarán las técnicas utilizadas con éxito para la detección de repeticiones totales y parciales en repositorios y bibliotecas digitales, con énfasis en el análisis de textos. En la sección \emph{Detección de archivos idénticos} se tratará brevemente el problema de detección de duplicaciones y dos ejemplos del mundo real en repositorios grandes. La sección \emph{Detección de repeticiones parciales de texto} tratará en mayor detalle la detección de objetos de texto similares pero no idénticos. La sección \emph{Detección de repeticiones en archivos multimedia} reseñará algunas técnicas para realizar la misma tarea en contenido audiovisual. Finalmente, en la sección \emph{Un estudio empírico sobre el repositorio del SEDICI} se discutirán los resultados de aplicar \todo{GERMÁN, COMPLETAR} sobre el repositorio del SEDICI. \\
+
+\section{Detección de archivos idénticos}
+
+En \cite{van2008adore} se describen dos implantaciones de la arquitectura de federación de repositorios \emph{aDORe} que almacenan más de cien millones de objetos digitales. Los autores señalan que en entornos que aspiran a la preservación digital de largo plazo, puede llegar a ser problemático asociar estrechamente el identificador interno de un objeto digital con la referencia que establece un protocolo basado en URIs. Esto se debe a que, en la práctica, las URLs de acceso a los objetos del repositorio cambian con el tiempo, por motivos varios que abarcan desde aspectos técnicos hasta aquellos relacionados con las políticas de custodia, mientras los identificadores internos pueden sobrevivir intactos incluso al migrar entre sistemas de manejo de contenidos. \\
+
+Por este motivo, el uso de esquemas de identificación no basados en un protocolo permite definir una identidad global \cite{tansley2006building}. Cuando múltiples repositorios federados almacenan varias copias del mismo objeto y utilizan el mismo identificador interno no basado en la URL de acceso, todas pueden reconocerse sin ambigüedad; cosa que sería imposible al utilizar una URI dependiente del protocolo o de la localización. Es idéntico el escenario en el que un único repositorio guarda múltiples copias de un objeto con el mismo identificador, por lo que es interesante estudiar para este propósito esquemas como \emph{info}, \emph{ARK}, o \emph{tag}. \\
+
+Cuando no se cuenta con un esquema de identificación consistente, o el mismo es inadecuado para la tarea por motivos de implementación, se debe recurrir necesariamente a la generación de \emhp{hashes} para detección de archivos idénticos. Sin embargo, al ocuparse de objetos digitales de gran tamaño y colecciones de decenas de millones de objetos incluso este proceso puede resultar prohibitivo. Un enfoque basado en la fragmentación del \emph{byte stream} y la localización precisa de huellas únicas dependientes del tipo de archivo permite no sólo incrementar la escalabilidad sino reducir los tiempos de análisis y los costos del proceso de detección de repeticiones. \\
+
+Por ejemplo, en \cite{forman2005finding} se describe la aplicación de un esquema de este tipo, capaz de descubrir documentos idénticos sin utilizar metadatos ni identificadores, sólo empleando pequeños fragmentos específicos al tipo de archivo y un algoritmo de partición de grafos. Este es aplicado a la fusión y limpieza periódica dentro de una colección de muchos millones de documentos técnicos y de soporte, cuyo versionado no es exhaustivo y entre los cuáles pueden aparecer duplicados y el mismo documento en múltiples formatos. Los autores enfatizan la necesidad de complementar la detección automática con una revisión manual posterior. \\
+
+\section{Detección de repeticiones parciales de texto}
+
+Detectar repeticiones completas es, en principio, una tarea sencilla. El proceso puede resumirse en tres etapas; una primera en la cuál se calculan los \emph{hashes} de los objetos digitales considerados, una segunda de almacenamiento, y una tercera de detección de repeticiones en los \emph{hashes}. En contraste, la detección de repeticiones parciales o similaridades elevadas es una tarea no sólo de mucho mayor complejidad sino también con mucha mayor demanda de almacenamiento y potencia computacional. El almacenamiento crece pues los conjuntos de características extraídas y las estructuras de datos requeridas exigen más información que un simple entero, y la potencia computacional necesaria refleja el hecho de que las posibles variaciones que generen una repetición parcial son numerosísimas. \\
+
+Por este motivo, el proceso de detección de repeticiones parciales suele realizarse en dos grandes etapas. En primer lugar se utiliza un esquema de indizado y búsqueda para la selección rápida de un conjunto reducido de candidatos en una colección, mientras que en segundo lugar se aplican técnicas de comparación exhaustiva, mucho más costosas, sobre el antedicho conjunto. Existen dos familias principales de técnicas para la selección de candidatos: los métodos basados en \emph{rankings} y aquellos basados en la determinación de huellas (del inglés \emph{fingerprinting}) \cite{hoad2003methods}. El proceso de detección exhaustiva es mucho más variado. \\
+
+A continuación se describirán algunos ejemplos de métodos basados en ranking y en huellas que han sido aplicados con éxitos a repositorios digitales. Luego, se explica 
+la comparación detallada final y finalmente se advierte sobre las diferencias introducidas por el tipo de texto. \\
+
+\subsection{Métodos basados en ranking}
+
+Los métodos basados en ranking, similares a los utilizados por motores de búsqueda, comienzan fragmentando los textos en palabras o \emph{tokens} para generar un léxico y un conjunto de listas invertidas. El léxico almacena las palabras que aparecen en el texto mientras que las listas invertidas almacenan estadísticas de repetición, frecuencia, o cercanía a otras palabras. Ambos son utilizados para generar un índice que será luego recorrido por el motor de búsqueda. Distintas técnicas para almacenar el índice de forma tal que sea rápido de acceder y a la vez escalable para una enorme cantidad de documentos han sido utilizadas, como los \emph{d-gaps}, u otros esquemas más sofisticados para la compresión de secuencias de enteros. A su vez, la información de términos almacenada en dicho índice puede ser pesada de acuerdo a la frecuencia dentro de cada documento y a la frecuencia global, a los fines de mejorar la relevancia de los resultados pues la identificación de términos menos comunes permite seleccionar en primer lugar aquellos que logran mayor poder de discriminación. También pueden penalizarse los conteos de palabras de acuerdo a la extensión del documento para contrarrestar el hecho de que en documentos más largos cada palabra ocurrirá naturalmente más veces. \\
+
+En un motor de búsqueda tradicional, la consulta consiste en un conjunto de términos clave y posiblemente otros campos para restringir la búsqueda. Es diferente el caso que aquí nos ocupa, en donde la consulta o entrada al motor consiste en un documento completo y la salida en el subconjunto de documentos indizados que presentan un grado de similaridad suficientemente elevado. A pesar de esta considerable diferencia, el índice utilizado suele ser del mismo tipo; sí difieren el tipo de métricas utilizadas para la jerarquización de los resultados, y se agrega una segunda fase en donde sólo los resultados más relevantes se evalúan exhaustivamente contra el documento de origen \cite{berry2005understanding}. De esta forma, el proceso de evaluación exhaustiva que sería prohibitivo de realizar contra todos los elementos de la colección es realizado exclusivamente contra aquellos de los cuáles hay motivos para sospechar que esconden una similaridad significativa. \\
+
+El motor de búsqueda para descubrir archivos similares o repeticiones parciales requiere utilizar un conjunto de métricas para seleccionar y ordenar los resultados de la consulta realizada que difiere de su contraparte, la búsqueda basada exclusivamente en palabras clave \cite{berry2005understanding}. Algunos de ellos incluyen comparaciones del histograma completo de términos individuales o n--gramas (en este contexto, conjunto de dos o más palabras sucesivas) utilizando distancias especializadas como PlagiRank o \emph{hashing} localmente sensible. Esta última técnica será descrita en más detalle en la sección sobre archivos multimedia. \\
+
+El algoritmo PlagiRank \cite{chawla2003indexing}, si bien ha sido propuesto inicialmente para la detección de plagio, es útil para la detección de documentos versionados y repeticiones parciales. Contrariamente a otras métricas de similaridad como las basadas en la distancia del coseno u Okapi BM25, más útiles para la búsqueda basada en términos, PlagiRank se adapta muy bien al descubrimiento de similaridades fuertes en textos pues, en contraste con las anteriores, no premia los documentos con mayor cantidad de apariciones de unos pocos términos de búsqueda sino que intenta capturar una similaridad global aunque no exacta en la cantidad de ocurrencias de palabras o n--gramas, y sus posiciones relativas en el histograma. \\
+
+\subsection{Métodos basados en huellas}
+
+Contrariamente a los métodos basados en ranking, que descomponen e indizan el texto de entrada, los métodos basados en huellas (fingerprinting) buscan representar de manera compacta cada documento a ser comparado, para luego aplicar una métrica de similaridad a estas representaciones acotadas. Cada huella se compone de un conjunto fijo de atributos que representan los aspectos clave del documento procesado, con suficiente granularidad para expresar relaciones de texto no superficiales. \\
+
+Uno de los primeros esquemas de detección de similaridad mediante el uso de huellas que ha demostrado ser a la vez efectivo y escalable es el propuesto en \cite{heintze1996scalable} ya en 1996. El autor utiliza las denominadas \emph{huellas selectivas de tamaño fijo}, que consisten en la elección cautelosa de fragmentos representativos del texto y reducen el enfoque a la construcción de una estrategia de selección y a la optimización del tamaño de las huellas para una colección dada. De esta forma logra cumplir con requerimientos de almacenamiento y tiempos de comparación inicial sorprendente bajos sin incrementar la tasa de falsos positivos en contraste con los casos base. Es interesante notar que el tipo de preprocesamiento utilizado hace a este esquema resiliente al ruido de conversión; de esta forma, textos similares que han pasado por procesos de conversión diversos como, por ejemplo, la conversión entre PDF, PostScript, o texto plano, no presentan dificultades. De esta forma la migración sucesiva a nuevos formatos eventualmente requerida por el proceso de preservación a largo plazo no colisionaría con la posibilidad de detectar reduplicaciones. \\
+
+En \cite{monostori2000document} se propone un sistema de detección de duplicaciones parciales para bibliotecas digitales en tres etapas que los autores denominan MDR, acrónimo inglés de encontrar/detectar/revelar (MatchDetectReveal). Con cambios menores este puede servir tanto para detectar duplicaciones internas en un repositorio como plagio si se utiliza el mismo contra colecciones externas. La huella se contruye en base a los árboles de sufijos de los documentos procesados, utilizando una versión modificada del algoritmo de Ukkonen (ver subsección \emph{Comparación detallada final}). \\
+
+Border \cite{broder1997resemblance} extiende la noción de similaridad o repetición parcial para incluir un nuevo tipo de relación de \emph{inclusión parcial}; es decir, cuando uno de los documentos se encuentra parcialmente incluído, posiblemente con modificaciones, en otro de mayor extensión en forma tal que una comparación de similaridad arrojaría un resultado negativo. El esquema propuesto se basa en la reducción a un conjunto de problemas de intersección de conjuntos que pueden resolverse de manera aproximada utilizando muestreo aleatorio y huellas de Rabin \cite{rabin1981fingerprinting}. A pesar de ser un abordaje más flexible, presenta dificultades de escalabilidad para colecciones muy grandes. 
+
+\subsection{Comparación detallada final}
+
+Tanto los métodos pertenecientes a las familias de ranking y huellas como otros que sirven al mismo propósito sirven a los fines de encontrar rápidamente un conjunto de candidatos, que luego deben ser procesados en mayor detalle con algoritmos de mayor costo computacional pero menor tasa de error. El problema general se denomina detección de coincidencias aproximadas (del inglés \emph{approximate string matching}) y goza una frondosa literatura que data de los inicios de la computación (ver, por ejemplo, la reseña \cite{hall1980approximate}). Reseñarla excede el alcance del presente trabajo. \\
+
+El \emph{alineamiento local} es una técnica que ha sido empleada con éxito para la comparación detallada final en repositorios de gran tamaño \cite{burrows2007efficient}. Originalmente concebida en el campo de la bioinformática para rastrear similaridades en el código genético y así descubrir organismos homólogos, ha encontrado posteriormente utilidad en la detección de coincidencias aproximadas en textos, tanto de lenguaje natural como de código fuente. 
+
+\subsection{El problema que introduce el tipo de texto}
+
+Las técnicas y algoritmos reseñados más arriba deben considerarse en el marco específico de la detección de repeticiones en textos compuestos de lenguaje natural. Otros tipos de archivos, como puede ser el código fuente, requieren abordajes particulares pues de lo contrario las tasas de error en la detección se incrementan sensiblemente aunque en todos los casos se trate de texto y no de otro tipo de contenido \cite{burrows2007efficient}. \\
+
+\section{Detección de repeticiones parciales en archivos multimedia}
+
+No sólo en el contenido de los archivos de texto o en los objetos monolíticos pueden buscarse repeticiones. Técnicas de mayor complejidad, y que también requieren mayor potencia de cómputo, pueden utilizarse para descubrir repeticiones totales o parciales en archivos multimedia. La dificultad adicional que el contenido multimedia detenta se debe no sólo a la variedad de formatos en los que este puede presentarse sino también al hecho de que este puede estar codificado o comprimido con diferentes esquemas, cuyo resultado al descomprimir puede introducir suficiente variación del contenido para confundir comparaciones inocentes. \\
+
+\subsection{Audio}
+
+En el caso del audio, el conjunto de técnicas de identificación de contenidos similares pero sujetos a ruido, a artefactos de compresión/descompresión, o a pérdidas de calidad por codificación con menor resolución, se agrupan bajo el nombre de \emph{audio hash}. \\
+
+Por ejemplo, en \cite{zhang2011detecting} se comparan los algoritmos de Coskun y de Nilsima, dos técnicas de \emph{hashing} localmente sensible (puede consultarse una exhaustiva revisión del tema en \cite{wang2014hashing}), para detectar y eliminar tempranamente mensajes de voz no solicitados, tanto comerciales como spam, que hayan quedado registrados en contestadores automáticos. Incluso al tratarse de audio pregrabado y de llamadas VoIP, el audio final no resulta indistinguible entre observaciones ya sea por ruido en el segmento analógico, por demoras y pérdidas de paquetes en el segmento digital, por la utilización de diferentes calidad de almacenamiento en el receptor, o porque el emisor opta por generar los mensajes dinámicamente para dificultar la detección. Aún así, el esquema presentado alcanza una aceptable tasa de error de menos del 5\% si no se modifica notoriamente el diálogo o la vocalización. Cabe aclarar que los esquemas utilizados enfatizan la simplicidad y la velocidad de procesamiento, por lo que pueden lograrse tasas de error más bajas a costa de incrementar la potencia de procesamiento disponible. En el año de publicación (2014), el tiempo de procesamiento para un mensaje de treinta segundos se encontraba en el orden de medio segundo en hardware de propósito general. 
+El algoritmo es paralelizable. \\
+
+Es posible extender las técnicas anteriores para detectar similaridades en el audio con mucha mayor tolerancia a artefactos introducidos por el procesamiento, compresión, o almacenamiento, de forma tal que las misma sean útiles para la recuperación por contenido. Intuitivamente, entendemos que dos grabaciones de audio pueden referir al mismo contenido aunque la forma de onda difiera notoriamente. Así, reconocemos la misma pieza musical por la partitura aunque los ejecutantes difieran. Idénticamente, el mismo discurso puede ser pronunciado por dos hablantes distintos. En \cite{yang2001macs} se utilizan los picos locales de potencia en la señal de audio, conjuntamente con el análisis espectral de sus contornos, para formar secuencias características pasibles de ser indexadas. Una vez más las técnicas de hashing localmente sensible son aplicables a este caso, luego del preprocesamiento indicado. La precisión lograda alcanza el 80\%, aún en los casos de mayor dificultad como piezas musicales con distintos intérpretes y ejecutadas a distinta velocidad. \\
+
+Las técnicas anteriores son efectivas para la detección de similaridades globales, pero si el objetivo es descubrir repeticiones parciales como en el caso de objetos de texto y no contenido repetido con variaciones, se debe recurrir a otro tipo de funciones de hashing denominadas \emph{de trazo grueso} (del inglés \emph{coarse grained fingerprinting}) \cite{saracoglu2009content}. Este tipo de esquemas han sido utilizados para detectar usos no autorizados y violaciones a los derechos de autor \cite{ouali2014robust}, pues permiten detectar la utilización de fragmentos de audio embebidos en otros de contenido como video o dentro de una mezcla de sonido. Idénticamente, la generación de huellas auditivas (del inglés \emph{audio fingerprinting}) permite la recuperación de objetos de audio cuando sólo un fragmento es conocido, e incluso si el mismo ha sido sujeto a distorsión intencional o inintencional, con tasas de error despreciables siempre que la calidad de grabación supere un umbral aceptable \cite{ouali2014robust}. Las aplicaciones de reconocimiento de canciones, como Shazam o las incluídas en Apple Siri, Google Now, o Microsoft Cortana, utilizan principios similares. \\
+
+\subsection{Imagen y video}
+
+En forma similar al caso de objetos de audio, la detección de imagénes casi idénticas utiliza métricas de similaridad insensibles al ruido, al cambio de calidad, o la compresión/descompresión de la información visual, a la vez que modificaciones menores en el contenido producen valores de salida insignificantes. Sí debe destacarse que, debido al mayor volumen de información contenido en imágenes y videos en contraste con el audio y más aún con el texto, las consideraciones de escalabilidad  deben ser priorizadas cuando las mismos se intentan aplicar en repositorios de gran tamaño. \\
+
+Es interesante destacar el método min-Hash pues este permite graduar la sensibilidad por medio de un parámetro, haciendo oscilar el umbral de detección desde imágenes perfectamente idénticas hasta todo tipo de variaciones que, a pesar de diferir en términos de información cruda, son muy similares para un observador humanos \emph{chum2008near}. Si bien este tipo de técnicas no han sido aplicadas a la deduplicación de objetos en repositorios digitales, sí han encontrado utilización en la detección de usos no autorizados de imágenes con derechos reservados, o la eliminación de marcas de agua en contenido públicamente accesible \cite{zhou2016effective}. \\
+
+\section{Un estudio empírico sobre el repositorio del SEDICI}
+
+\todo{GERMÁN, COMPLETÁ}
+
+\section{Conclusiones}
+
+\todo{GERMÁN, COMPLETÁ}
+
+\bibliographystyle{IEEEtran}
+\bibliography{IEEEabrv,lnitemplate,propia}
+
+
+% that's all folks
+\end{document}
+
+
