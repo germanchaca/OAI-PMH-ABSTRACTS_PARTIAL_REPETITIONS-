@@ -1,29 +1,31 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.18)  4 AUG 2020 15:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.8.12)  12 AUG 2020 22:24
 entering extended mode
 **./Doctorado-Materias-BRD-TP.tex
 (Doctorado-Materias-BRD-TP.tex
-LaTeX2e <2018-12-01>
-(IEEEtran.cls
-Document Class: IEEEtran 2012/11/21 V1.8c by Harald Hanche-Olsen and Anders Christensen
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-06-18> (IEEEtran.cls
+Document Class: IEEEtran 2012/11/21 V1.8c by Harald Hanche-Olsen and Anders Chr
+istensen
 -- Based on V1.7a by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
-\@IEEEtrantmpdimenA=\dimen102
-\@IEEEtrantmpdimenB=\dimen103
-\@IEEEtrantmpcountA=\count80
-\@IEEEtrantmpcountB=\count81
-\@IEEEtrantmptoksA=\toks14
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 373.
-("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ot1ptm.fd"
+\@IEEEtrantmpdimenA=\dimen134
+\@IEEEtrantmpdimenB=\dimen135
+\@IEEEtrantmpcountA=\count167
+\@IEEEtrantmpcountB=\count168
+\@IEEEtrantmptoksA=\toks15
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 3
+73.
+("C:\Program Files\MiKTeX\tex/latex/psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using 8.5in x 11in (letter) paper.
 -- Using PDF output.
-\@IEEEnormalsizeunitybaselineskip=\dimen104
+\@IEEEnormalsizeunitybaselineskip=\dimen136
 -- This is a 10 point document.
-\CLASSINFOnormalsizebaselineskip=\dimen105
-\CLASSINFOnormalsizeunitybaselineskip=\dimen106
-\IEEEnormaljot=\dimen107
+\CLASSINFOnormalsizebaselineskip=\dimen137
+\CLASSINFOnormalsizeunitybaselineskip=\dimen138
+\IEEEnormaljot=\dimen139
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
@@ -64,166 +66,141 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
-\IEEEilabelindentA=\dimen108
-\IEEEilabelindentB=\dimen109
-\IEEEilabelindent=\dimen110
-\IEEEelabelindent=\dimen111
-\IEEEdlabelindent=\dimen112
-\IEEElabelindent=\dimen113
-\IEEEiednormlabelsep=\dimen114
-\IEEEiedmathlabelsep=\dimen115
-\IEEEiedtopsep=\skip41
-\c@section=\count82
-\c@subsection=\count83
-\c@subsubsection=\count84
-\c@paragraph=\count85
-\c@IEEEsubequation=\count86
-\abovecaptionskip=\skip42
-\belowcaptionskip=\skip43
-\c@figure=\count87
-\c@table=\count88
-\@IEEEeqnnumcols=\count89
-\@IEEEeqncolcnt=\count90
-\@IEEEtmpitemindent=\dimen116
-\c@IEEEbiography=\count91
-\@IEEEtranrubishbin=\box27
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/cite\cite.sty"
+\IEEEilabelindentA=\dimen140
+\IEEEilabelindentB=\dimen141
+\IEEEilabelindent=\dimen142
+\IEEEelabelindent=\dimen143
+\IEEEdlabelindent=\dimen144
+\IEEElabelindent=\dimen145
+\IEEEiednormlabelsep=\dimen146
+\IEEEiedmathlabelsep=\dimen147
+\IEEEiedtopsep=\skip47
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@IEEEsubequation=\count173
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\c@figure=\count174
+\c@table=\count175
+\@IEEEeqnnumcols=\count176
+\@IEEEeqncolcnt=\count177
+\@IEEEtmpitemindent=\dimen148
+\c@IEEEbiography=\count178
+\@IEEEtranrubishbin=\box45
+) ("C:\Program Files\MiKTeX\tex/latex/lm\lmodern.sty"
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+("C:\Program Files\MiKTeX\tex/latex/cite\cite.sty"
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
+)
+("C:\Program Files\MiKTeX\tex/latex/bera\bera.sty"
+Package: bera 2004/01/31 (WaS)
+
+("C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty"
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
+2.
+
+("C:\Program Files\MiKTeX\tex/latex/lm\t1lmr.fd"
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
+("C:\Program Files\MiKTeX\tex/latex/base\textcomp.sty"
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+("C:\Program Files\MiKTeX\tex/latex/bera\beraserif.sty"
+Package: beraserif 2004/01/30 (WaS)
+
+("C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks15
+\KV@toks@=\toks16
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
- ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\trig.sty"
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.cfg"
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 99.
+LaTeX Font Info:    Trying to load font information for T1+fve on input line 30
+.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+("C:\Program Files\MiKTeX\tex/latex/bera\t1fve.fd"
+File: t1fve.fd 2004/09/07 scalable font definitions for T1/fve.
+)
+LaTeX Font Info:    Font shape `T1/fve/m/n' will be
+(Font)              scaled to size 8.99994pt on input line 30.
+)
+("C:\Program Files\MiKTeX\tex/latex/bera\berasans.sty"
+Package: berasans 2004/01/30 (WaS)
+)
+("C:\Program Files\MiKTeX\tex/latex/bera\beramono.sty"
+Package: beramono 2004/01/31 (WaS)
 ))
-\Gin@req@height=\dimen117
-\Gin@req@width=\dimen118
-)
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\inputenc.sty"
-Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks16
-\inpenc@posthook=\toks17
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\color.sty"
-Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+("C:\Program Files\MiKTeX\tex/latex/listings\listings.sty"
+\lst@mode=\count179
+\lst@gtempboxa=\box46
+\lst@token=\toks17
+\lst@length=\count180
+\lst@currlwidth=\dimen149
+\lst@column=\count181
+\lst@pos=\count182
+\lst@lostspace=\dimen150
+\lst@width=\dimen151
+\lst@newlines=\count183
+\lst@lineno=\count184
+\lst@maxwidth=\dimen152
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg"
-File: color.cfg 2016/01/02 v1.6 sample color configuration
+("C:\Program Files\MiKTeX\tex/latex/listings\lstmisc.sty"
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count185
+\lst@skipnumbers=\count186
+\lst@framebox=\box47
 )
-Package color Info: Driver file: pdftex.def on input line 147.
-)
-("C:\Program Files\MiKTeX 2.9\tex/latex/colortbl\colortbl.sty"
-Package: colortbl 2018/12/12 v1.0d Color table columns (DPC)
- ("C:\Program Files\MiKTeX 2.9\tex/latex/tools\array.sty"
-Package: array 2018/11/13 v2.4j Tabular extension package (FMi)
-\col@sep=\dimen119
-\ar@mcellbox=\box28
-\extrarowheight=\dimen120
-\NC@list=\toks18
-\extratabsurround=\skip44
-\backup@length=\skip45
-\ar@cellbox=\box29
-)
-\everycr=\toks19
-\minrowclearance=\skip46
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/tools\bm.sty"
-Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
-\symboldoperators=\mathgroup4
-\symboldletters=\mathgroup5
-\symboldsymbols=\mathgroup6
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
-LaTeX Info: Redefining \bm on input line 207.
-)
-("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/frontendlayer\tikz.sty"
-("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgf.sty"
-("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/utilities\pgfrcs.sty"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfutil-common.tex"
-\pgfutil@everybye=\toks20
-\pgfutil@tempdima=\dimen121
-\pgfutil@tempdimb=\dimen122
-
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfutil-common-lists.tex"))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfutil-latex.def"
-\pgfutil@abb=\box30
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/ms\everyshi.sty"
-Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+("C:\Program Files\MiKTeX\tex/latex/listings\listings.cfg"
+File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfrcs.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf\pgf.revision.tex")
-Package: pgfrcs 2019/02/02 v3.1.1 (3.1.1)
-))
-Package: pgf 2019/02/02 v3.1.1 (3.1.1)
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgfcore.sty"
-("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/systemlayer\pgfsys.sty"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgfsys.code.tex"
-Package: pgfsys 2019/02/02 v3.1.1 (3.1.1)
-
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfkeys.code.tex"
-\pgfkeys@pathtoks=\toks21
-\pgfkeys@temptoks=\toks22
-
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex"
-\pgfkeys@tmptoks=\toks23
-))
-\pgf@x=\dimen123
-\pgf@y=\dimen124
-\pgf@xa=\dimen125
-\pgf@ya=\dimen126
-\pgf@xb=\dimen127
-\pgf@yb=\dimen128
-\pgf@xc=\dimen129
-\pgf@yc=\dimen130
-\w@pgf@writea=\write3
-\r@pgf@reada=\read1
-\c@pgf@counta=\count92
-\c@pgf@countb=\count93
-\c@pgf@countc=\count94
-\c@pgf@countd=\count95
-\t@pgf@toka=\toks24
-\t@pgf@tokb=\toks25
-\t@pgf@tokc=\toks26
-\pgf@sys@id@count=\count96
-
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgf.cfg"
-File: pgf.cfg 2019/02/02 v3.1.1 (3.1.1)
-)
-Driver file for pgf: pgfsys-pdftex.def
-
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgfsys-pdftex.def"
-File: pgfsys-pdftex.def 2019/02/02 v3.1.1 (3.1.1)
-
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def"
-File: pgfsys-common-pdf.def 2019/02/02 v3.1.1 (3.1.1)
-)))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex"
-File: pgfsyssoftpath.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgfsyssoftpath@smallbuffer@items=\count97
-\pgfsyssoftpath@bigbuffer@items=\count98
-)
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex"
-File: pgfsysprotocol.code.tex 2019/02/02 v3.1.1 (3.1.1)
-))
-("C:\Program Files\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
+("C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
- ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg"
+
+("C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
-LaTeX Info: Redefining \color on input line 709.
+
+("C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -233,634 +210,905 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcore.code.tex"
-Package: pgfcore 2019/02/02 v3.1.1 (3.1.1)
+)
+("C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty"
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathcalc.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathutil.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathparser.code.tex"
-\pgfmath@dimen=\dimen131
-\pgfmath@count=\count99
-\pgfmath@box=\box31
-\pgfmath@toks=\toks27
-\pgfmath@stack@operand=\toks28
-\pgfmath@stack@operation=\toks29
-)
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.random.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.base.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.round.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex")))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfloat.code.tex"
-\c@pgfmathroundto@lastzeros=\count100
-))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex"
-File: pgfcorepoints.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgf@picminx=\dimen132
-\pgf@picmaxx=\dimen133
-\pgf@picminy=\dimen134
-\pgf@picmaxy=\dimen135
-\pgf@pathminx=\dimen136
-\pgf@pathmaxx=\dimen137
-\pgf@pathminy=\dimen138
-\pgf@pathmaxy=\dimen139
-\pgf@xx=\dimen140
-\pgf@xy=\dimen141
-\pgf@yx=\dimen142
-\pgf@yy=\dimen143
-\pgf@zx=\dimen144
-\pgf@zy=\dimen145
-)
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex"
-File: pgfcorepathconstruct.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgf@path@lastx=\dimen146
-\pgf@path@lasty=\dimen147
-)
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex"
-File: pgfcorepathusage.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgf@shorten@end@additional=\dimen148
-\pgf@shorten@start@additional=\dimen149
-)
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex"
-File: pgfcorescopes.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgfpic=\box32
-\pgf@hbox=\box33
-\pgf@layerbox@main=\box34
-\pgf@picture@serial@count=\count101
-)
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex"
-File: pgfcoregraphicstate.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgflinewidth=\dimen150
-)
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex"
-File: pgfcoretransformations.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgf@pt@x=\dimen151
-\pgf@pt@y=\dimen152
-\pgf@pt@temp=\dimen153
-)
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorequick.code.tex"
-File: pgfcorequick.code.tex 2019/02/02 v3.1.1 (3.1.1)
-)
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex"
-File: pgfcoreobjects.code.tex 2019/02/02 v3.1.1 (3.1.1)
-)
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex"
-File: pgfcorepathprocessing.code.tex 2019/02/02 v3.1.1 (3.1.1)
-)
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex"
-File: pgfcorearrows.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgfarrowsep=\dimen154
-)
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex"
-File: pgfcoreshade.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgf@max=\dimen155
-\pgf@sys@shading@range@num=\count102
-)
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex"
-File: pgfcoreimage.code.tex 2019/02/02 v3.1.1 (3.1.1)
+("C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty"
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex"
-File: pgfcoreexternal.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgfexternal@startupbox=\box35
+("C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+)
+\Gin@req@height=\dimen153
+\Gin@req@width=\dimen154
+)
+("C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks18
+\inpenc@posthook=\toks19
+)
+("C:\Program Files\MiKTeX\tex/latex/colortbl\colortbl.sty"
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+
+("C:\Program Files\MiKTeX\tex/latex/tools\array.sty"
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen155
+\ar@mcellbox=\box48
+\extrarowheight=\dimen156
+\NC@list=\toks20
+\extratabsurround=\skip50
+\backup@length=\skip51
+\ar@cellbox=\box49
+)
+\everycr=\toks21
+\minrowclearance=\skip52
+)
+("C:\Program Files\MiKTeX\tex/latex/tools\bm.sty"
+Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup4
+\symboldletters=\mathgroup5
+\symboldsymbols=\mathgroup6
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 209.
+)
+("C:\Program Files\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty"
+("C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty"
+("C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty"
+("C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex"
+\pgfutil@everybye=\toks22
+\pgfutil@tempdima=\dimen157
+\pgfutil@tempdimb=\dimen158
+
+("C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common-lists.tex"))
+("C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def"
+\pgfutil@abb=\box50
+
+("C:\Program Files\MiKTeX\tex/latex/ms\everyshi.sty"
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex"
-File: pgfcorelayers.code.tex 2019/02/02 v3.1.1 (3.1.1)
+("C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex"
+("C:\Program Files\MiKTeX\tex/generic/pgf\pgf.revision.tex")
+Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
+))
+Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
+
+("C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty"
+("C:\Program Files\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty"
+("C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex"
+Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
+
+("C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex"
+\pgfkeys@pathtoks=\toks23
+\pgfkeys@temptoks=\toks24
+
+("C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex"
+\pgfkeys@tmptoks=\toks25
+))
+\pgf@x=\dimen159
+\pgf@y=\dimen160
+\pgf@xa=\dimen161
+\pgf@ya=\dimen162
+\pgf@xb=\dimen163
+\pgf@yb=\dimen164
+\pgf@xc=\dimen165
+\pgf@yc=\dimen166
+\pgf@xd=\dimen167
+\pgf@yd=\dimen168
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count187
+\c@pgf@countb=\count188
+\c@pgf@countc=\count189
+\c@pgf@countd=\count190
+\t@pgf@toka=\toks26
+\t@pgf@tokb=\toks27
+\t@pgf@tokc=\toks28
+\pgf@sys@id@count=\count191
+("C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg"
+File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex"
-File: pgfcoretransparency.code.tex 2019/02/02 v3.1.1 (3.1.1)
+Driver file for pgf: pgfsys-pdftex.def
+
+("C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def"
+File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
+
+("C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def"
+File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
+))) ("C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.t
+ex"
+File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfsyssoftpath@smallbuffer@items=\count192
+\pgfsyssoftpath@bigbuffer@items=\count193
+) ("C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
+"
+File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) ("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex"
+Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
+
+("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex"
+("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex"
+("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex")
+("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex"
+\pgfmath@dimen=\dimen169
+\pgfmath@count=\count194
+\pgfmath@box=\box51
+\pgfmath@toks=\toks29
+\pgfmath@stack@operand=\toks30
+\pgfmath@stack@operation=\toks31
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex"
-File: pgfcorepatterns.code.tex 2019/02/02 v3.1.1 (3.1.1)
+("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex"
+("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex"
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex"
-File: pgfcorerdf.code.tex 2019/02/02 v3.1.1 (3.1.1)
+("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.c
+ode.tex")
+("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex
+")
+("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code
+.tex")
+("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex")
+("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex"
+) ("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex
+")
+("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmet
+ics.code.tex")))
+("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count195
+))
+("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfint.code.tex")
+("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex"
+File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@picminx=\dimen170
+\pgf@picmaxx=\dimen171
+\pgf@picminy=\dimen172
+\pgf@picmaxy=\dimen173
+\pgf@pathminx=\dimen174
+\pgf@pathmaxx=\dimen175
+\pgf@pathminy=\dimen176
+\pgf@pathmaxy=\dimen177
+\pgf@xx=\dimen178
+\pgf@xy=\dimen179
+\pgf@yx=\dimen180
+\pgf@yy=\dimen181
+\pgf@zx=\dimen182
+\pgf@zy=\dimen183
+)
+("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.
+tex"
+File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@path@lastx=\dimen184
+\pgf@path@lasty=\dimen185
+)
+("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex"
+File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@shorten@end@additional=\dimen186
+\pgf@shorten@start@additional=\dimen187
+) ("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex"
+File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfpic=\box52
+\pgf@hbox=\box53
+\pgf@layerbox@main=\box54
+\pgf@picture@serial@count=\count196
+)
+("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.t
+ex"
+File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgflinewidth=\dimen188
+)
+("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.cod
+e.tex"
+File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@pt@x=\dimen189
+\pgf@pt@y=\dimen190
+\pgf@pt@temp=\dimen191
+)
+("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex"
+File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex"
+File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code
+.tex"
+File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex"
+File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowsep=\dimen192
+)
+("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex"
+File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@max=\dimen193
+\pgf@sys@shading@range@num=\count197
+\pgf@shadingcount=\count198
+)
+("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex"
+File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex"
+File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfexternal@startupbox=\box55
+)) ("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex"
+File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.t
+ex"
+File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex"
+File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) ("C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex"
+File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/modules\pgfmoduleshapes.code.tex"
-File: pgfmoduleshapes.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgfnodeparttextbox=\box36
+("C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex"
+File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodeparttextbox=\box56
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/modules\pgfmoduleplot.code.tex"
-File: pgfmoduleplot.code.tex 2019/02/02 v3.1.1 (3.1.1)
+("C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex"
+File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty"
-Package: pgfcomp-version-0-65 2019/02/02 v3.1.1 (3.1.1)
-\pgf@nodesepstart=\dimen156
-\pgf@nodesepend=\dimen157
-)
-("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty"
-Package: pgfcomp-version-1-18 2019/02/02 v3.1.1 (3.1.1)
+("C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty"
+Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@nodesepstart=\dimen194
+\pgf@nodesepend=\dimen195
+) ("C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.st
+y"
+Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
+)) ("C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgffor.sty"
+("C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty"
+("C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex"))
+("C:\Program Files\MiKTeX\tex/latex/pgf/math\pgfmath.sty"
+("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex"))
+("C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex"
+Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
+
+("C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex")
+\pgffor@iter=\dimen196
+\pgffor@skip=\dimen197
+\pgffor@stack=\toks32
+\pgffor@toks=\toks33
 ))
-("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/utilities\pgffor.sty"
-("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/utilities\pgfkeys.sty"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfkeys.code.tex"))
-("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/math\pgfmath.sty"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.code.tex"))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgffor.code.tex"
-Package: pgffor 2019/02/02 v3.1.1 (3.1.1)
+("C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex"
+Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.code.tex")
-\pgffor@iter=\dimen158
-\pgffor@skip=\dimen159
-\pgffor@stack=\toks30
-\pgffor@toks=\toks31
-))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex"
-Package: tikz 2019/02/02 v3.1.1 (3.1.1)
-
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex"
-File: pgflibraryplothandlers.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgf@plot@mark@count=\count103
-\pgfplotmarksize=\dimen160
+("C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code
+.tex"
+File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@plot@mark@count=\count199
+\pgfplotmarksize=\dimen198
 )
-\tikz@lastx=\dimen161
-\tikz@lasty=\dimen162
-\tikz@lastxsaved=\dimen163
-\tikz@lastysaved=\dimen164
-\tikzleveldistance=\dimen165
-\tikzsiblingdistance=\dimen166
-\tikz@figbox=\box37
-\tikz@figbox@bg=\box38
-\tikz@tempbox=\box39
-\tikz@tempbox@bg=\box40
-\tikztreelevel=\count104
-\tikznumberofchildren=\count105
-\tikznumberofcurrentchild=\count106
-\tikz@fig@count=\count107
+\tikz@lastx=\dimen199
+\tikz@lasty=\dimen256
+\tikz@lastxsaved=\dimen257
+\tikz@lastysaved=\dimen258
+\tikz@lastmovetox=\dimen259
+\tikz@lastmovetoy=\dimen260
+\tikzleveldistance=\dimen261
+\tikzsiblingdistance=\dimen262
+\tikz@figbox=\box57
+\tikz@figbox@bg=\box58
+\tikz@tempbox=\box59
+\tikz@tempbox@bg=\box60
+\tikztreelevel=\count266
+\tikznumberofchildren=\count267
+\tikznumberofcurrentchild=\count268
+\tikz@fig@count=\count269
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/modules\pgfmodulematrix.code.tex"
-File: pgfmodulematrix.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgfmatrixcurrentrow=\count108
-\pgfmatrixcurrentcolumn=\count109
-\pgf@matrix@numberofcolumns=\count110
+("C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex"
+File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfmatrixcurrentrow=\count270
+\pgfmatrixcurrentcolumn=\count271
+\pgf@matrix@numberofcolumns=\count272
 )
-\tikz@expandcount=\count111
+\tikz@expandcount=\count273
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex"
-File: tikzlibrarytopaths.code.tex 2019/02/02 v3.1.1 (3.1.1)
+("C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibr
+arytopaths.code.tex"
+File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )))
-("C:\Program Files\MiKTeX 2.9\tex/latex/pgfplots\pgfplots.sty"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots\pgfplots.revision.tex")
-Package: pgfplots 2018/03/28 v1.16 Data Visualization (1.16)
+("C:\Program Files\MiKTeX\tex/latex/pgfplots\pgfplots.sty"
+("C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.revision.tex")
+Package: pgfplots 2020/02/29 v1.17 Data Visualization (1.17)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots\pgfplots.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots\pgfplotscore.code.tex"
-\t@pgfplots@toka=\toks32
-\t@pgfplots@tokb=\toks33
-\t@pgfplots@tokc=\toks34
-\pgfplots@tmpa=\dimen167
-\c@pgfplots@coordindex=\count112
-\c@pgfplots@scanlineindex=\count113
+("C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.code.tex"
+("C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotscore.code.tex"
+\t@pgfplots@toka=\toks34
+\t@pgfplots@tokb=\toks35
+\t@pgfplots@tokc=\toks36
+\pgfplots@tmpa=\dimen263
+\c@pgfplots@coordindex=\count274
+\c@pgfplots@scanlineindex=\count275
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/sys\pgfplotssysgeneric.code.tex"))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/libs\pgfplotslibrary.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_loader.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/libraries\pgflibraryfpu.code.tex")
-Package pgfplots: loading complementary arithmetics for your pgf version...
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_pgflibraryfpu.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_pgfmathfloat.code.tex"
-\c@pgfmathroundto@lastzeros=\count114
-))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/util\pgfplotsutil.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/liststructure\pgfplotsliststructure.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/liststructure\pgfplotsliststructureext.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/liststructure\pgfplotsarray.code.tex"
-\c@pgfplotsarray@tmp=\count115
+("C:\Program Files\MiKTeX\tex/generic/pgfplots/sys\pgfplotssysgeneric.code.tex"
+)) ("C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\pgfplotslibrary.code.tex
+")
+("C:\Program Files\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsup
+p_loader.code.tex"
+("C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryfpu.code.tex"))
+("C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.code.tex"
+("C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststruct
+ure.code.tex")
+("C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststruct
+ureext.code.tex")
+("C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsarray.code
+.tex"
+\c@pgfplotsarray@tmp=\count276
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/liststructure\pgfplotsmatrix.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/numtable\pgfplotstableshared.code.tex"
-\c@pgfplotstable@counta=\count116
-\t@pgfplotstable@a=\toks35
+("C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsmatrix.cod
+e.tex")
+("C:\Program Files\MiKTeX\tex/generic/pgfplots/numtable\pgfplotstableshared.cod
+e.tex"
+\c@pgfplotstable@counta=\count277
+\t@pgfplotstable@a=\toks37
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/liststructure\pgfplotsdeque.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/util\pgfplotsbinary.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/util\pgfplotsbinary.data.code.tex"))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/util\pgfplotsutil.verb.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/libs\pgflibrarypgfplots.surfshading.code.tex"
-\c@pgfplotslibrarysurf@no=\count117
+("C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsdeque.code
+.tex")
+("C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.code.tex"
+("C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.data.code.te
+x"))
+("C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.verb.code.tex"
+)
+("C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.surfshad
+ing.code.tex"
+\c@pgfplotslibrarysurf@no=\count278
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def")))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/util\pgfplotscolormap.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/util\pgfplotscolor.code.tex"))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots\pgfplotsstackedplots.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots\pgfplotsplothandlers.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots\pgfplotsmeshplothandler.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots\pgfplotsmeshplotimage.code.tex")))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots\pgfplots.scaling.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots\pgfplotscoordprocessing.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots\pgfplots.errorbars.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots\pgfplots.markers.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots\pgfplotsticks.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots\pgfplots.paths.code.tex")
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/modules\pgfmoduledecorations.code.tex"
-\pgfdecoratedcompleteddistance=\dimen168
-\pgfdecoratedremainingdistance=\dimen169
-\pgfdecoratedinputsegmentcompleteddistance=\dimen170
-\pgfdecoratedinputsegmentremainingdistance=\dimen171
-\pgf@decorate@distancetomove=\dimen172
-\pgf@decorate@repeatstate=\count118
-\pgfdecorationsegmentamplitude=\dimen173
-\pgfdecorationsegmentlength=\dimen174
+("C:\Program Files\MiKTeX\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshadi
+ng.pgfsys-pdftex.def")))
+("C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotscolormap.code.tex"
+("C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotscolor.code.tex"))
+("C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsstackedplots.code.tex")
+("C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsplothandlers.code.tex"
+("C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplothandler.code.tex
+" ("C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplotimage.code.tex
+"))) ("C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.scaling.code.tex")
+("C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotscoordprocessing.code.tex
+") ("C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.errorbars.code.tex")
+("C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.markers.code.tex")
+("C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsticks.code.tex")
+("C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.paths.code.tex")
+("C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibr
+arydecorations.code.tex"
+("C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
+"
+\pgfdecoratedcompleteddistance=\dimen264
+\pgfdecoratedremainingdistance=\dimen265
+\pgfdecoratedinputsegmentcompleteddistance=\dimen266
+\pgfdecoratedinputsegmentremainingdistance=\dimen267
+\pgf@decorate@distancetomove=\dimen268
+\pgf@decorate@repeatstate=\count279
+\pgfdecorationsegmentamplitude=\dimen269
+\pgfdecorationsegmentlength=\dimen270
 )
-\tikz@lib@dec@box=\box41
+\tikz@lib@dec@box=\box61
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathmorphing.code.tex"))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex
-" ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathreplacing.code.tex"))
-\pgfplots@numplots=\count119
-\pgfplots@xmin@reg=\dimen175
-\pgfplots@xmax@reg=\dimen176
-\pgfplots@ymin@reg=\dimen177
-\pgfplots@ymax@reg=\dimen178
-\pgfplots@zmin@reg=\dimen179
-\pgfplots@zmax@reg=\dimen180
+("C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibr
+arydecorations.pathmorphing.code.tex"
+("C:\Program Files\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecor
+ations.pathmorphing.code.tex"))
+("C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibr
+arydecorations.pathreplacing.code.tex"
+("C:\Program Files\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecor
+ations.pathreplacing.code.tex"))
+\pgfplots@numplots=\count280
+\pgfplots@xmin@reg=\dimen271
+\pgfplots@xmax@reg=\dimen272
+\pgfplots@ymin@reg=\dimen273
+\pgfplots@ymax@reg=\dimen274
+\pgfplots@zmin@reg=\dimen275
+\pgfplots@zmax@reg=\dimen276
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryplotmarks.code.tex"
-File: tikzlibraryplotmarks.code.tex 2019/02/02 v3.1.1 (3.1.1)
+("C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibr
+aryplotmarks.code.tex"
+File: tikzlibraryplotmarks.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/libraries\pgflibraryplotmarks.code.tex"
-File: pgflibraryplotmarks.code.tex 2019/02/02 v3.1.1 (3.1.1)
-)))
-("C:\Program Files\MiKTeX 2.9\tex/latex/pgfplots\pgfplotstable.sty"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots\pgfplots.revision.tex")
-Package: pgfplotstable 2018/03/28 v1.16 Table typesetting and Pretty-printing (1.16)
+("C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplotmarks.code.te
+x"
+File: pgflibraryplotmarks.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))) ("C:\Program Files\MiKTeX\tex/latex/pgfplots\pgfplotstable.sty"
+("C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.revision.tex")
+Package: pgfplotstable 2020/02/29 v1.17 Table typesetting and Pretty-printing (
+1.17)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/numtable\pgfplotstable.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/numtable\pgfplotstable.coltype.code.tex")))
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.sty"
-Package: babel 2018/11/13 3.27 The Babel package
- ("C:\Program Files\MiKTeX 2.9\tex/generic/babel\switch.def"
-File: switch.def 2018/11/13 3.27 Babel switching mechanism
+("C:\Program Files\MiKTeX\tex/generic/pgfplots/numtable\pgfplotstable.code.tex"
+
+("C:\Program Files\MiKTeX\tex/generic/pgfplots/numtable\pgfplotstable.coltype.c
+ode.tex"))) ("C:\Program Files\MiKTeX\tex/generic/babel\babel.sty"
+Package: babel 2020/06/10 3.45 The Babel package
+
+("C:\Program Files\MiKTeX\tex/generic/babel\babel.def"
+File: babel.def 2020/06/10 3.45 Babel common definitions
+\babel@savecnt=\count281
+\U@D=\dimen277
+\l@babelnohyphens=\language79
+
+("C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def")
+\bbl@readstream=\read3
 )
+\bbl@dirlevel=\count282
+
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Program Files\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+("C:\Program Files\MiKTeX\tex/latex/arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/babel-spanish\spanish.ldf"
+("C:\Program Files\MiKTeX\tex/latex/babel-spanish\spanish.ldf"
 Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
-
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.def"
-File: babel.def 2018/11/13 3.27 Babel common definitions
-\babel@savecnt=\count120
-\U@D=\dimen181
- ("C:\Program Files\MiKTeX 2.9\tex/generic/babel\txtbabel.def")
-\bbl@dirlevel=\count121
-)
-\es@quottoks=\toks36
-\es@quotdepth=\count122
+\es@quottoks=\toks38
+\es@quotdepth=\count283
 Package babel Info: Making " an active character on input line 561.
 Package babel Info: Making . an active character on input line 662.
 Package babel Info: Making < an active character on input line 707.
 Package babel Info: Making > an active character on input line 707.
-)) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/libs\tikzlibrarypgfplots.fillbetween.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/pgfcontrib\tikzlibraryfillbetween.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryintersections.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/libraries\pgflibraryintersections.code.tex"
-\pgf@intersect@solutions=\count123
 ))
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/pgfcontrib\tikzlibrarydecorations.softclip.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/pgfcontrib\pgflibraryfillbetween.code.tex"
-("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_pgflibraryintersections.code.tex"
-\pgf@intersect@solutions=\count124
-)))) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgfplots/libs\tikzlibrarypgfplots.decorations.softclip.code.tex"))
-("C:\Program Files\MiKTeX 2.9\tex/latex/draftwatermark\draftwatermark.sty"
-Package: draftwatermark 2015/02/19 1.2 Put a gray textual watermark on document pages
+("C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.fillbet
+ween.code.tex"
+("C:\Program Files\MiKTeX\tex/generic/pgfplots/pgfcontrib\tikzlibraryfillbetwee
+n.code.tex"
+("C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibr
+aryintersections.code.tex"
+("C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryintersections.cod
+e.tex"
+\pgf@intersect@solutions=\count284
+))
+("C:\Program Files\MiKTeX\tex/generic/pgfplots/pgfcontrib\tikzlibrarydecoration
+s.softclip.code.tex"
+("C:\Program Files\MiKTeX\tex/generic/pgfplots/pgfcontrib\pgflibraryfillbetween
+.code.tex")))
+("C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.decorat
+ions.softclip.code.tex"))
+("C:\Program Files\MiKTeX\tex/latex/draftwatermark\draftwatermark.sty"
+Package: draftwatermark 2020/06/29 2.2 Put a gray textual watermark on document
+ pages
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/everypage\everypage.sty"
-Package: everypage 2007/06/20 1.1 Hooks to run on every page
+("C:\Program Files\MiKTeX\tex/latex/kvoptions\kvoptions.sty"
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+
+("C:\Program Files\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty"
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
 )
-\sc@wm@hcenter=\skip47
-\sc@wm@vcenter=\skip48
-\sc@wm@fontsize=\skip49
-) (Doctorado-Materias-BRD-TP.aux
+("C:\Program Files\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.sty"
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+("C:\Program Files\MiKTeX\tex/latex/everypage\everypage.sty"
+Package: everypage 2007/06/20 1.1 Hooks to run on every page
+))
+("C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdfmode.def"
+File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count285
+\l__pdf_internal_box=\box62
+)
+(Doctorado-Materias-BRD-TP.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
 \openout1 = `Doctorado-Materias-BRD-TP.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 370.
-LaTeX Font Info:    ... okay on input line 370.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 370.
-LaTeX Font Info:    ... okay on input line 370.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 370.
-LaTeX Font Info:    ... okay on input line 370.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 370.
-LaTeX Font Info:    ... okay on input line 370.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 370.
-LaTeX Font Info:    ... okay on input line 370.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 370.
-LaTeX Font Info:    ... okay on input line 370.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 406.
+LaTeX Font Info:    ... okay on input line 406.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 406.
+LaTeX Font Info:    ... okay on input line 406.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 406.
+LaTeX Font Info:    ... okay on input line 406.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 406.
+LaTeX Font Info:    ... okay on input line 406.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 406.
+LaTeX Font Info:    ... okay on input line 406.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 406.
+LaTeX Font Info:    ... okay on input line 406.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 406.
+LaTeX Font Info:    ... okay on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/m/n' will be
+(Font)              scaled to size 4.49997pt on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/b/n' will be
+(Font)              scaled to size 4.49997pt on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/m/it' in size <5> not available
+(Font)              Font shape `T1/fve/m/sl' tried instead on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/m/sl' will be
+(Font)              scaled to size 4.49997pt on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/b/it' in size <5> not available
+(Font)              Font shape `T1/fve/b/sl' tried instead on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/b/sl' will be
+(Font)              scaled to size 4.49997pt on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/m/n' will be
+(Font)              scaled to size 6.29996pt on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/b/n' will be
+(Font)              scaled to size 6.29996pt on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/m/it' in size <7> not available
+(Font)              Font shape `T1/fve/m/sl' tried instead on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/m/sl' will be
+(Font)              scaled to size 6.29996pt on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/b/it' in size <7> not available
+(Font)              Font shape `T1/fve/b/sl' tried instead on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/b/sl' will be
+(Font)              scaled to size 6.29996pt on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/m/n' will be
+(Font)              scaled to size 7.19995pt on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/b/n' will be
+(Font)              scaled to size 7.19995pt on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/m/it' in size <8> not available
+(Font)              Font shape `T1/fve/m/sl' tried instead on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/m/sl' will be
+(Font)              scaled to size 7.19995pt on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/b/it' in size <8> not available
+(Font)              Font shape `T1/fve/b/sl' tried instead on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/b/sl' will be
+(Font)              scaled to size 7.19995pt on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/m/n' will be
+(Font)              scaled to size 8.09995pt on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/b/n' will be
+(Font)              scaled to size 8.09995pt on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/m/it' in size <9> not available
+(Font)              Font shape `T1/fve/m/sl' tried instead on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/m/sl' will be
+(Font)              scaled to size 8.09995pt on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/b/it' in size <9> not available
+(Font)              Font shape `T1/fve/b/sl' tried instead on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/b/sl' will be
+(Font)              scaled to size 8.09995pt on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/b/n' will be
+(Font)              scaled to size 8.99994pt on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/m/it' in size <10> not available
+(Font)              Font shape `T1/fve/m/sl' tried instead on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/m/sl' will be
+(Font)              scaled to size 8.99994pt on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/b/it' in size <10> not available
+(Font)              Font shape `T1/fve/b/sl' tried instead on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/b/sl' will be
+(Font)              scaled to size 8.99994pt on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/m/n' will be
+(Font)              scaled to size 9.89993pt on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/b/n' will be
+(Font)              scaled to size 9.89993pt on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/m/it' in size <11> not available
+(Font)              Font shape `T1/fve/m/sl' tried instead on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/m/sl' will be
+(Font)              scaled to size 9.89993pt on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/b/it' in size <11> not available
+(Font)              Font shape `T1/fve/b/sl' tried instead on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/b/sl' will be
+(Font)              scaled to size 9.89993pt on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/m/n' will be
+(Font)              scaled to size 10.79993pt on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/b/n' will be
+(Font)              scaled to size 10.79993pt on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/m/it' in size <12> not available
+(Font)              Font shape `T1/fve/m/sl' tried instead on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/m/sl' will be
+(Font)              scaled to size 10.79993pt on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/b/it' in size <12> not available
+(Font)              Font shape `T1/fve/b/sl' tried instead on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/b/sl' will be
+(Font)              scaled to size 10.79993pt on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/m/n' will be
+(Font)              scaled to size 15.2999pt on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/b/n' will be
+(Font)              scaled to size 15.2999pt on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/m/it' in size <17> not available
+(Font)              Font shape `T1/fve/m/sl' tried instead on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/m/sl' will be
+(Font)              scaled to size 15.2999pt on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/b/it' in size <17> not available
+(Font)              Font shape `T1/fve/b/sl' tried instead on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/b/sl' will be
+(Font)              scaled to size 15.2999pt on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/m/n' will be
+(Font)              scaled to size 17.99988pt on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/b/n' will be
+(Font)              scaled to size 17.99988pt on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/m/it' in size <20> not available
+(Font)              Font shape `T1/fve/m/sl' tried instead on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/m/sl' will be
+(Font)              scaled to size 17.99988pt on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/b/it' in size <20> not available
+(Font)              Font shape `T1/fve/b/sl' tried instead on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/b/sl' will be
+(Font)              scaled to size 17.99988pt on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/m/n' will be
+(Font)              scaled to size 21.59985pt on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/b/n' will be
+(Font)              scaled to size 21.59985pt on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/m/it' in size <24> not available
+(Font)              Font shape `T1/fve/m/sl' tried instead on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/m/sl' will be
+(Font)              scaled to size 21.59985pt on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/b/it' in size <24> not available
+(Font)              Font shape `T1/fve/b/sl' tried instead on input line 406.
+LaTeX Font Info:    Font shape `T1/fve/b/sl' will be
+(Font)              scaled to size 21.59985pt on input line 406.
+\c@lstlisting=\count286
 
-("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
+("C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count125
-\scratchdimen=\dimen182
-\scratchbox=\box42
-\nofMPsegments=\count126
-\nofMParguments=\count127
-\everyMPshowfont=\toks37
-\MPscratchCnt=\count128
-\MPscratchDim=\dimen183
-\MPnumerator=\count129
-\makeMPintoPDFobject=\count130
-\everyMPtoPDFconversion=\toks38
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-base.sty"
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\infwarerr.sty"
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+\scratchcounter=\count287
+\scratchdimen=\dimen278
+\scratchbox=\box63
+\nofMPsegments=\count288
+\nofMParguments=\count289
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count290
+\MPscratchDim=\dimen279
+\MPnumerator=\count291
+\makeMPintoPDFobject=\count292
+\everyMPtoPDFconversion=\toks40
+) ("C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\grfext.sty"
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+ABD: EveryShipout initializing macros
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\kvdefinekeys.sty"
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
+ick labels; missing features). Consider writing \pgfplotsset{compat=1.17} into 
+your preamble.
+ on input line 406.
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds.sty"
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)))
-("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\kvoptions.sty"
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+LaTeX Info: Redefining \. on input line 406.
+LaTeX Info: Redefining \% on input line 406.
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\kvsetkeys.sty"
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\etexcmds.sty"
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ifluatex.sty"
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-))))
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.sty"
-Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
-) ABD: EveryShipout initializing macros
-
-Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider w
-riting \pgfplotsset{compat=1.16} into your preamble.
- on input line 370.
-
-LaTeX Info: Redefining \. on input line 370.
-LaTeX Info: Redefining \% on input line 370.
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.427 \maketitle
-                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Undefined control sequence.
-l.435 ...scutir√°n los resultados de aplicar \todo
-                                                  {GERM√ÅN, COMPLETAR} sobre...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Font Warning: Font shape `T1/fve/m/sc' undefined
+(Font)              using `T1/fve/m/n' instead on input line 507.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 477--478
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
+
+Underfull \hbox (badness 1917) in paragraph at lines 511--512
+\T1/fve/m/n/10 El de-sa-fÌo que pre-sen-ta con-sis-te en que du-ran-te
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 479--480
+Underfull \hbox (badness 10000) in paragraph at lines 511--512
 
  []
 
-
-Underfull \hbox (badness 1867) in paragraph at lines 481--482
-\OT1/ptm/m/it/10 pa-ra crear apli-ca-cio-nes in-form[]ati-cas. Pa-ra-le-la-men-te, las
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 481--482
-
- []
-
-[1{C:/Users/Nahuel/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+LaTeX Font Info:    Font shape `T1/fve/m/n' will be
+(Font)              scaled to size 138.21542pt on input line 512.
+[1{C:/Users/germa/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 485--486
+Underfull \hbox (badness 10000) in paragraph at lines 513--514
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 487--488
+Underfull \hbox (badness 5787) in paragraph at lines 515--516
+[]\T1/fve/m/sl/10 ``La ar-qui-tec-tu-ra di-ri-gi-da por mo-de-los (MDA)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 515--516
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 489--490
+Underfull \hbox (badness 10000) in paragraph at lines 519--520
 
  []
 
 
-Underfull \hbox (badness 1478) in paragraph at lines 491--492
-\OT1/ptm/m/n/10 del re-sul-ta-do sino que tam-bi[]en pue-de pro-du-cir dispu-tas
- []
-
-
-Underfull \hbox (badness 2735) in paragraph at lines 491--492
-\OT1/ptm/m/n/10 he-rra-mien-tas co-mo \OT1/ptm/m/it/10 OWL Web On-to-logy Lan-gua-ge \OT1/ptm/m/n/10 [12]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 491--492
+Underfull \hbox (badness 10000) in paragraph at lines 521--522
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 493--494
+Underfull \hbox (badness 10000) in paragraph at lines 523--524
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 497--498
+Underfull \hbox (badness 1888) in paragraph at lines 525--526
+\T1/fve/m/n/10 to-tal o par-cial, o di-ver-sos gra-dos de si-mi-la-ri-dad,
+ []
+
+
+Underfull \hbox (badness 1533) in paragraph at lines 525--526
+\T1/fve/m/n/10 [11]. Es-ta pr·c-ti-ca no sÛ-lo re-du-ce la ca-li-dad del
+ []
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 525--526
+\T1/fve/m/n/10 de pro-pie-dad in-te-lec-tual. Es cla-ra-men-te im-po-si-ble
+ []
+
+
+Underfull \hbox (badness 3439) in paragraph at lines 525--526
+\T1/fve/m/n/10 de gra-do, maes-trÌa, y doc-to-ra-do [11]. Asi-mis-mo,
+ []
+
+
+Underfull \hbox (badness 4608) in paragraph at lines 525--526
+\T1/fve/m/n/10 dos co-lec-cio-nes pue-den con-te-ner ar-chi-vos a los
+ []
+
+
+Underfull \hbox (badness 2012) in paragraph at lines 525--526
+\T1/fve/m/n/10 bits-treams di-fie-ren no-to-ria-men-te. Dos ar-chi-vos de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--526
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--500
-\OT1/ptm/m/n/10 glo-bal [14]. Cuan-do m[]ulti-ples re-po-si-to-rios fe-de-ra-dos
+Underfull \hbox (badness 1701) in paragraph at lines 527--528
+\T1/fve/m/n/10 y par-cia-les en re-po-si-to-rios y bi-blio-te-cas di-gi-ta-les,
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--500
+Underfull \hbox (badness 1728) in paragraph at lines 527--528
+\T1/fve/m/n/10 el pro-ble-ma de de-tec-ciÛn de du-pli-ca-cio-nes y dos
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 527--528
+\T1/fve/m/n/10 ejem-plos del mun-do real en re-po-si-to-rios gran-des.
+ []
+
+
+Underfull \hbox (badness 2653) in paragraph at lines 527--528
+\T1/fve/m/n/10 de tex-to si-mi-la-res pe-ro no idÈn-ti-cos. La sec-ciÛn
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 527--528
+\T1/fve/m/sl/10 De-tec-ciÛn de re-pe-ti-cio-nes en ar-chi-vos mul-ti-me-dia
+ []
+
+
+Underfull \hbox (badness 1953) in paragraph at lines 527--528
+\T1/fve/m/n/10 re-se-Òa-r· al-gu-nas tÈc-ni-cas pa-ra rea-li-zar la mis-ma
+ []
+
+
+Underfull \hbox (badness 1708) in paragraph at lines 527--528
+\T1/fve/m/n/10 ta-rea en con-te-ni-do au-dio-vi-sual. Fi-nal-men-te, en la
+ []
+
+
+Underfull \hbox (badness 2744) in paragraph at lines 527--528
+\T1/fve/m/sl/10 SE-DI-CI \T1/fve/m/n/10 se de-ta-lla-r· la ex-pe-rien-cia de re
+-co-lec-tar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 527--528
 
  []
 
 [2]
-! Undefined control sequence.
-l.501 ... necesariamente a la generaci√≥n de \emhp
-                                                  {hashes} para detecci√≥n d...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Font Info:    Font shape `T1/fve/m/sc' will be
+(Font)              scaled to size 8.99994pt on input line 529.
+
+Underfull \hbox (badness 1354) in paragraph at lines 531--532
+\T1/fve/m/sc/10 va-rios que abar-can des-de as-pec-tos tÈc-ni-cos has-ta
+ []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--502
+Underfull \hbox (badness 10000) in paragraph at lines 531--532
 
  []
 
 
-Underfull \hbox (badness 3039) in paragraph at lines 503--504
-\OT1/ptm/m/n/10 es-que-ma de es-te ti-po, ca-paz de des-cu-brir do-cu-men-tos
+Underfull \hbox (badness 10000) in paragraph at lines 533--534
+[]\T1/fve/m/sc/10 Por es-te mo-ti-vo, el uso de es-que-mas de
  []
 
 
-Underfull \hbox (badness 3536) in paragraph at lines 503--504
-\OT1/ptm/m/n/10 id[]enti-cos sin uti-li-zar me-ta-da-tos ni iden-ti-fi-ca-do-res, s[]olo
+Underfull \hbox (badness 3312) in paragraph at lines 533--534
+\T1/fve/m/sc/10 no ba-sa-do en la URL de ac-ce-so, to-das pue-den
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 503--504
-
+Underfull \hbox (badness 1354) in paragraph at lines 533--534
+\T1/fve/m/sc/10 es-tu-diar pa-ra es-te pro-pÛ-si-to es-que-mas co-mo \T1/fve/m/
+sl/10 in-fo\T1/fve/m/sc/10 ,
  []
 
 
-Underfull \hbox (badness 1365) in paragraph at lines 507--508
-[]\OT1/ptm/m/n/10 Detectar re-pe-ti-cio-nes com-ple-tas es, en prin-ci-pio, una
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 507--508
+Underfull \hbox (badness 10000) in paragraph at lines 533--534
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 509--510
+Underfull \hbox (badness 10000) in paragraph at lines 535--536
+[]\T1/fve/m/sc/10 Cuando no se cuen-ta con un es-que-ma de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 535--536
 
  []
 
 
-Underfull \hbox (badness 3449) in paragraph at lines 511--513
-[]\OT1/ptm/m/n/10 A con-ti-nua-ci[]on se des-cri-bir[]an al-gu-nos ejem-plos de
+Underfull \hbox (badness 1365) in paragraph at lines 537--538
+\T1/fve/m/sc/10 en-tre los cu·-les pue-den apa-re-cer du-pli-ca-dos y el
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 511--513
-
- []
-
-
-Underfull \hbox (badness 2478) in paragraph at lines 516--517
-\OT1/ptm/m/n/10 por mo-to-res de b[]usque-da, co-mien-zan frag-men-tan-do los
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 516--517
+Underfull \hbox (badness 10000) in paragraph at lines 537--538
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 518--519
+Underfull \hbox (badness 2293) in paragraph at lines 541--542
+\T1/fve/m/sc/10 tres eta-pas; una pri-me-ra en la cu·l se cal-cu-lan
+ []
+
+
+Underfull \hbox (badness 2884) in paragraph at lines 541--542
+\T1/fve/m/sc/10 los \T1/fve/m/sl/10 hashes \T1/fve/m/sc/10 de los ob-je-tos di-
+gi-ta-les con-si-de-ra-dos,
+ []
+
+
+Underfull \hbox (badness 4556) in paragraph at lines 541--542
+\T1/fve/m/sc/10 una se-gun-da de al-ma-ce-na-mien-to, y una ter-ce-ra
+ []
+
+
+Underfull \hbox (badness 3724) in paragraph at lines 541--542
+\T1/fve/m/sc/10 de de-tec-ciÛn de re-pe-ti-cio-nes en los \T1/fve/m/sl/10 hashe
+s\T1/fve/m/sc/10 . En
+ []
+
+
+Underfull \hbox (badness 5316) in paragraph at lines 541--542
+\T1/fve/m/sc/10 con-tras-te, la de-tec-ciÛn de re-pe-ti-cio-nes par-cia-les
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 541--542
+\T1/fve/m/sc/10 ma-yor de-man-da de al-ma-ce-na-mien-to y po-ten-cia
+ []
+
+
+Underfull \hbox (badness 2393) in paragraph at lines 541--542
+\T1/fve/m/sc/10 compu-tacio-nal. El al-ma-ce-na-mien-to cre-ce pues los
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 541--542
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 520--521
+Underfull \hbox (badness 3861) in paragraph at lines 543--544
+[]\T1/fve/m/sc/10 Por es-te mo-ti-vo, el pro-ce-so de de-tec-ciÛn de
+ []
+
+
+Underfull \hbox (badness 2762) in paragraph at lines 543--544
+\T1/fve/m/sc/10 de tÈc-ni-cas pa-ra la se-lec-ciÛn de can-di-da-tos: los
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 543--544
 
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 522--523
-\OT1/ptm/m/n/10 si-mi-la-ri-dad glo-bal aun-que no exac-ta en la can-ti-dad de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 522--523
-
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 526--527
+Underfull \hbox (badness 10000) in paragraph at lines 545--547
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 528--529
-
+Underfull \hbox (badness 3657) in paragraph at lines 550--551
+[]\T1/fve/m/sc/10 Los mÈ-to-dos ba-sa-dos en ran-king, si-mi-la-res a
  []
 
 
-Underfull \hbox (badness 7012) in paragraph at lines 530--531
-[]\OT1/ptm/m/n/10 En [2] se pro-po-ne un sis-te-ma de de-tec-ci[]on de
- []
-
-
-Underfull \hbox (badness 1715) in paragraph at lines 530--531
-\OT1/ptm/m/n/10 du-pli-ca-cio-nes par-cia-les pa-ra bi-blio-te-cas di-gi-ta-les en tres
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 530--531
-
- []
-
-
-Underfull \hbox (badness 2744) in paragraph at lines 536--537
-[]\OT1/ptm/m/n/10 Tanto los m[]eto-dos per-te-ne-cien-tes a las fa-mi-lias de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 536--537
-
- []
-
-
-Underfull \hbox (badness 1412) in paragraph at lines 542--543
-\OT1/ptm/m/n/10 con-si-de-rar-se en el mar-co es-pec[]fi-co de la de-tec-ci[]on de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 542--543
-
- []
-
-
-Underfull \hbox (badness 2635) in paragraph at lines 546--547
-\OT1/ptm/m/n/10 o com-pri-mi-do con di-fe-ren-tes es-que-mas, cu-yo re-sul-ta-do
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 546--547
-
- []
-
-
-Underfull \hbox (badness 2744) in paragraph at lines 550--551
-[]\OT1/ptm/m/n/10 En el ca-so del au-dio, el con-jun-to de t[]ecni-cas de
+Underfull \hbox (badness 4556) in paragraph at lines 550--551
+\T1/fve/m/sc/10 de acuer-do a la ex-ten-siÛn del do-cu-men-to pa-ra
  []
 
 
@@ -868,55 +1116,448 @@ Underfull \hbox (badness 10000) in paragraph at lines 550--551
 
  []
 
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 552--553
+\T1/fve/m/sc/10 con-sis-te en un con-jun-to de tÈr-mi-nos cla-ve y
+ []
+
+
+Underfull \hbox (badness 2277) in paragraph at lines 552--553
+\T1/fve/m/sc/10 in-di-za-dos que pre-sen-tan un gra-do de si-mi-la-ri-dad
+ []
+
+
+Underfull \hbox (badness 3118) in paragraph at lines 552--553
+\T1/fve/m/sc/10 la je-rar-qui-za-ciÛn de los re-sul-ta-dos, y se agre-ga
+ []
+
+
+Underfull \hbox (badness 4699) in paragraph at lines 552--553
+\T1/fve/m/sc/10 re-le-van-tes se eva-l˙an exhaus-ti-va-men-te con-tra el
+ []
+
+
+Underfull \hbox (badness 1629) in paragraph at lines 552--553
+\T1/fve/m/sc/10 de eva-lua-ciÛn exhaus-ti-va que se-rÌa prohi-bi-ti-vo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 552--553
+
+ []
+
+
+Underfull \hbox (badness 1565) in paragraph at lines 554--555
+[]\T1/fve/m/sc/10 El mo-tor de b˙s-que-da pa-ra des-cu-brir ar-chi-vos
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 554--555
+\T1/fve/m/sc/10 si-mi-la-res o re-pe-ti-cio-nes par-cia-les re-quie-re uti-li-z
+ar
+ []
+
+
+Underfull \hbox (badness 1412) in paragraph at lines 554--555
+\T1/fve/m/sc/10 en pa-la-bras cla-ve [16]. Al-gu-nos de ellos in-clu-yen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 554--555
+
+ []
+
+
+Underfull \hbox (badness 3861) in paragraph at lines 556--557
+[]\T1/fve/m/sc/10 El al-go-rit-mo Pla-gi-Rank [17], si bien ha si-do
+ []
+
+
+Underfull \hbox (badness 5519) in paragraph at lines 556--557
+\T1/fve/m/sc/10 y re-pe-ti-cio-nes par-cia-les. Con-tra-ria-men-te a otras
+ []
+
+
+Underfull \hbox (badness 3118) in paragraph at lines 556--557
+\T1/fve/m/sc/10 mÈ-tri-cas de si-mi-la-ri-dad co-mo las ba-sa-das en la
+ []
+
+
+Underfull \hbox (badness 2884) in paragraph at lines 556--557
+\T1/fve/m/sc/10 en tex-tos pues, en con-tras-te con las an-te-rio-res,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 556--557
+
+ []
+
+
+Underfull \vbox (badness 2828) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 560--561
+
+ []
+
+
+Underfull \hbox (badness 4927) in paragraph at lines 562--563
+[]\T1/fve/m/sc/10 Uno de los pri-me-ros es-que-mas de de-tec-ciÛn
+ []
+
+
+Underfull \hbox (badness 2213) in paragraph at lines 562--563
+\T1/fve/m/sc/10 con-sis-ten en la elec-ciÛn cau-te-lo-sa de frag-men-tos
+ []
+
+
+Underfull \hbox (badness 1776) in paragraph at lines 562--563
+\T1/fve/m/sc/10 re-pre-sen-ta-ti-vos del tex-to y re-du-cen el en-fo-que a
+ []
+
+
+Underfull \hbox (badness 2065) in paragraph at lines 562--563
+\T1/fve/m/sc/10 la cons-truc-ciÛn de una es-tra-te-gia de se-lec-ciÛn y
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 562--563
+\T1/fve/m/sc/10 una co-lec-ciÛn da-da. De es-ta for-ma lo-gra cum-plir
+ []
+
+
+Underfull \hbox (badness 2469) in paragraph at lines 562--563
+\T1/fve/m/sc/10 con re-que-ri-mien-tos de al-ma-ce-na-mien-to y tiem-pos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 562--563
+\T1/fve/m/sc/10 de com-pa-ra-ciÛn ini-cial sor-pren-den-te ba-jos sin
+ []
+
+
+Underfull \hbox (badness 2229) in paragraph at lines 562--563
+\T1/fve/m/sc/10 re-si-lien-te al rui-do de con-ver-siÛn; de es-ta for-ma,
+ []
+
+
+Underfull \hbox (badness 1565) in paragraph at lines 562--563
+\T1/fve/m/sc/10 tex-tos si-mi-la-res que han pa-sa-do por pro-ce-sos de
+ []
+
+
+Underfull \hbox (badness 2080) in paragraph at lines 562--563
+\T1/fve/m/sc/10 di-fi-cul-ta-des. De es-ta for-ma la mi-gra-ciÛn su-ce-si-va
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 562--563
+
+ []
+
+
+Underfull \hbox (badness 7704) in paragraph at lines 564--565
+\T1/fve/m/sc/10 du-pli-ca-cio-nes par-cia-les pa-ra bi-blio-te-cas di-gi-ta-les
+
+ []
+
+
+Underfull \hbox (badness 1997) in paragraph at lines 564--565
+\T1/fve/m/sc/10 en tres eta-pas que los au-to-res de-no-mi-nan MDR,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 564--565
+\T1/fve/m/sc/10 acrÛ-ni-mo in-glÈs de en-con-tra-r/-de-tec-ta-r/-re-ve-lar
+ []
+
+
+Underfull \hbox (badness 7486) in paragraph at lines 564--565
+\T1/fve/m/sc/10 (Match-De-tec-tRe-veal). Con cam-bios me-no-res es-te
+ []
+
+
+Underfull \hbox (badness 2334) in paragraph at lines 564--565
+\T1/fve/m/sc/10 pro-ce-sa-dos, uti-li-zan-do una ver-siÛn mo-di-fi-ca-da del
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 564--565
+
+ []
+
 [4]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 552.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 552.
+Underfull \hbox (badness 2197) in paragraph at lines 570--571
+\T1/fve/m/sc/10 un con-jun-to de can-di-da-tos, que lue-go de-ben ser
+ []
 
-Underfull \hbox (badness 10000) in paragraph at lines 552--554
+
+Underfull \hbox (badness 5064) in paragraph at lines 570--571
+\T1/fve/m/sc/10 pro-ce-sa-dos en ma-yor de-ta-lle con al-go-rit-mos de
+ []
+
+
+Underfull \hbox (badness 4531) in paragraph at lines 570--571
+\T1/fve/m/sc/10 ma-yor cos-to compu-tacio-nal pe-ro me-nor ta-sa de
+ []
+
+
+Underfull \hbox (badness 2126) in paragraph at lines 570--571
+\T1/fve/m/sc/10 coin-ci-den-cias apro-xi-ma-das (del in-glÈs \T1/fve/m/sl/10 ap
+-pro-xi-ma-te
+ []
+
+
+Underfull \hbox (badness 2359) in paragraph at lines 570--571
+\T1/fve/m/sc/10 la re-se-Òa [21]). Re-se-Òar-la ex-ce-de el al-can-ce del
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 570--571
 
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 555--556
-\OT1/ptm/m/n/10 que dos gra-ba-cio-nes de au-dio pue-den re-fe-rir al mis-mo
+Underfull \hbox (badness 2119) in paragraph at lines 576--577
+\T1/fve/m/sc/10 de-ben con-si-de-rar-se en el mar-co es-pe-cÌ-fi-co de la
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 555--556
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 557--558
+Underfull \hbox (badness 10000) in paragraph at lines 576--577
 
  []
 
 
-Underfull \hbox (badness 2521) in paragraph at lines 561--562
-[]\OT1/ptm/m/n/10 En for-ma si-mi-lar al ca-so de ob-je-tos de au-dio, la
+Underfull \hbox (badness 3977) in paragraph at lines 580--581
+[]\T1/fve/m/sc/10 No sÛ-lo en el con-te-ni-do de los ar-chi-vos de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 561--562
+Underfull \hbox (badness 7759) in paragraph at lines 580--581
+\T1/fve/m/sc/10 tam-biÈn re-quie-ren ma-yor po-ten-cia de cÛmpu-to,
+ []
+
+
+Underfull \hbox (badness 2573) in paragraph at lines 580--581
+\T1/fve/m/sc/10 o par-cia-les en ar-chi-vos mul-ti-me-dia. La di-fi-cul-tad
+ []
+
+
+Underfull \hbox (badness 3019) in paragraph at lines 580--581
+\T1/fve/m/sc/10 es-que-mas, cu-yo re-sul-ta-do al des-com-pri-mir pue-de
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 580--581
+\T1/fve/m/sc/10 in-tro-du-cir su-fi-cien-te va-ria-ciÛn del con-te-ni-do pa-ra
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 580--581
 
  []
 
 
-LaTeX Warning: Citation `zhou2016effective' on page 5 undefined on input line 563.
+Underfull \hbox (badness 1521) in paragraph at lines 584--585
+\T1/fve/m/sc/10 iden-ti-fi-ca-ciÛn de con-te-ni-dos si-mi-la-res pe-ro su-je-to
+s
+ []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 563--564
+Underfull \hbox (badness 10000) in paragraph at lines 584--585
 
  []
 
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5
+86.
+("C:\Program Files\MiKTeX\tex/latex/lm\ot1lmr.fd"
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5
+86.
+
+("C:\Program Files\MiKTeX\tex/latex/lm\omllmm.fd"
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+586.
+
+("C:\Program Files\MiKTeX\tex/latex/lm\omslmsy.fd"
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+586.
+
+("C:\Program Files\MiKTeX\tex/latex/lm\omxlmex.fd"
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 586.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 586.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 586.
+
+Underfull \hbox (badness 7468) in paragraph at lines 586--588
+\T1/fve/m/sc/10 tem-pra-na-men-te men-sa-jes de voz no so-li-ci-ta-dos,
+ []
+
+
+Underfull \hbox (badness 3758) in paragraph at lines 586--588
+\T1/fve/m/sc/10 re-gis-tra-dos en con-tes-ta-do-res au-to-m·-ti-cos. In-clu-so
+ []
+
+
+Underfull \hbox (badness 4518) in paragraph at lines 586--588
+\T1/fve/m/sc/10 al tra-tar-se de au-dio pre-gra-ba-do y de lla-ma-das
+ []
+
+
+Underfull \hbox (badness 3536) in paragraph at lines 586--588
+\T1/fve/m/sc/10 ob-ser-va-cio-nes ya sea por rui-do en el seg-men-to
+ []
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 586--588
+\T1/fve/m/sc/10 pa-ra di-fi-cul-tar la de-tec-ciÛn. A˙n asÌ, el es-que-ma
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 586--588
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 589--590
+\T1/fve/m/sc/10 de-tec-tar si-mi-la-ri-da-des en el au-dio con mu-cha
+ []
+
+
+Underfull \hbox (badness 2142) in paragraph at lines 589--590
+\T1/fve/m/sc/10 ma-yor to-le-ran-cia a ar-te-fac-tos in-tro-du-ci-dos por el
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 589--590
+\T1/fve/m/sc/10 pro-ce-sa-mien-to, com-pre-siÛn, o al-ma-ce-na-mien-to,
+ []
+
+
+Underfull \hbox (badness 6575) in paragraph at lines 589--590
+\T1/fve/m/sc/10 de for-ma tal que las mis-ma sean ˙ti-les pa-ra
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 589--590
+\T1/fve/m/sc/10 la re-cu-pe-ra-ciÛn por con-te-ni-do. In-tui-ti-va-men-te,
+ []
+
+
+Underfull \hbox (badness 4353) in paragraph at lines 589--590
+\T1/fve/m/sc/10 di-fie-ra no-to-ria-men-te. AsÌ, re-co-no-ce-mos la mis-ma
+ []
+
+
+Underfull \hbox (badness 4621) in paragraph at lines 589--590
+\T1/fve/m/sc/10 con-tor-nos, pa-ra for-mar se-cuen-cias ca-rac-te-rÌs-ti-cas
+ []
+
+
+Underfull \hbox (badness 3884) in paragraph at lines 589--590
+\T1/fve/m/sc/10 de hashing lo-cal-men-te sen-si-ble son apli-ca-bles a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 589--590
+
+ []
+
+[5]
+Underfull \hbox (badness 4303) in paragraph at lines 591--592
+[]\T1/fve/m/sc/10 Las tÈc-ni-cas an-te-rio-res son efec-ti-vas pa-ra la
+ []
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 591--592
+\T1/fve/m/sc/10 de ob-je-tos de tex-to y no con-te-ni-do re-pe-ti-do con
+ []
+
+
+Underfull \hbox (badness 3098) in paragraph at lines 591--592
+\T1/fve/m/sl/10 coar-se grai-ned fin-ger-prin-ting\T1/fve/m/sc/10 ) [26]. Es-te
+ ti-po de
+ []
+
+
+Underfull \hbox (badness 2626) in paragraph at lines 591--592
+\T1/fve/m/sc/10 o in-in-ten-cio-nal, con ta-sas de error des-pre-cia-bles
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 591--592
+
+ []
+
+
+Underfull \hbox (badness 7256) in paragraph at lines 595--596
+\T1/fve/m/sc/10 la de-tec-ciÛn de ima-gÈ-nes ca-si idÈn-ti-cas uti-li-za
+ []
+
+
+Underfull \hbox (badness 2735) in paragraph at lines 595--596
+\T1/fve/m/sc/10 de ca-li-dad, o la com-pre-siÛ-n/-des-com-pre-siÛn de la
+ []
+
+
+Underfull \hbox (badness 5417) in paragraph at lines 595--596
+\T1/fve/m/sc/10 in-for-ma-ciÛn vi-sual, a la vez que mo-di-fi-ca-cio-nes
+ []
+
+
+Underfull \hbox (badness 1742) in paragraph at lines 595--596
+\T1/fve/m/sc/10 in-sig-ni-fi-can-tes. SÌ de-be des-ta-car-se que, de-bi-do al
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 595--596
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+
+ []
+
+
+Underfull \hbox (badness 1845) in paragraph at lines 603--604
+\T1/fve/m/sc/10 di-go pro-pues-to uti-li-zan-do pro-vee-do-res de me-ta-da-
+ []
+
+
+Underfull \hbox (badness 2409) in paragraph at lines 603--604
+\T1/fve/m/sc/10 tos lis-ta-dos en bus-ca-do-res co-mo Sher-pa o Roar.
+ []
+
+
+Underfull \hbox (badness 2269) in paragraph at lines 603--604
+\T1/fve/m/sc/10 Pa-ra la pre-sen-te de-mos-tra-ciÛn se de-ci-diÛ uti-li-zar
+ []
+
+LaTeX Font Info:    Trying to load font information for T1+fvm on input line 60
+5.
+("C:\Program Files\MiKTeX\tex/latex/bera\t1fvm.fd"
+File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
+)
+LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
+(Font)              scaled to size 8.99994pt on input line 605.
+ [6]
 (Doctorado-Materias-BRD-TP.bbl
-Underfull \hbox (badness 1533) in paragraph at lines 56--61
-\OT1/ptm/m/it/8 RIVF In-ter-na-tio-nal Con-fe-ren-ce on Com-pu-ting & Com-mu-ni-ca-tion
+Underfull \hbox (badness 1810) in paragraph at lines 63--67
+[]\T1/fve/m/n/8 J. Dee-pi-ka, V. Ar-cha-na, V. Bag-ya-laksh-mi, P. Pre-ethi, an
+d
  []
 
-[5])
+[7])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -928,33 +1569,24 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[6
+[8
 
 ] (Doctorado-Materias-BRD-TP.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
 
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 24377 strings out of 492946
- 634472 string characters out of 3135524
- 801506 words of memory out of 3000000
- 27829 multiletter control sequences out of 15000+200000
- 40670 words of font info for 76 fonts, out of 3000000 for 9000
+ 27002 strings out of 480790
+ 672447 string characters out of 2907055
+ 1207028 words of memory out of 3000000
+ 42524 multiletter control sequences out of 15000+200000
+ 674561 words of font info for 139 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 62i,10n,96p,1422b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8
-a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Doctorado-Materias-BRD-TP.pdf (6 pages, 99059 bytes).
-PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 63i,8n,98p,1489b,1722s stack positions out of 5000i,500n,10000p,200000b,50000s
 
+!pdfTeX error: miktex-pdftex.exe (file fvero8r): Font fvero8r at 432 not found
+ ==> Fatal error occurred, no output PDF file produced!

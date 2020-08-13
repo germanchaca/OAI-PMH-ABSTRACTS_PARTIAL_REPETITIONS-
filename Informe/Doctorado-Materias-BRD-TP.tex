@@ -72,8 +72,6 @@
 
 
 
-
-
 % Some very useful LaTeX packages include:
 % (uncomment the ones you want to load)
 
@@ -121,7 +119,43 @@
 
 
 
+\usepackage{bera}% optional: just to have a nice mono-spaced font
+\usepackage{listings}
+\usepackage{xcolor}
 
+\colorlet{punct}{red!60!black}
+\definecolor{background}{HTML}{EEEEEE}
+\definecolor{delim}{RGB}{20,105,176}
+\colorlet{numb}{magenta!60!black}
+
+\lstdefinelanguage{json}{
+    basicstyle=\normalfont\ttfamily,
+    numbers=left,
+    numberstyle=\scriptsize,
+    stepnumber=1,
+    numbersep=8pt,
+    showstringspaces=false,
+    breaklines=true,
+    frame=lines,
+    backgroundcolor=\color{background},
+    literate=
+     *{0}{{{\color{numb}0}}}{1}
+      {1}{{{\color{numb}1}}}{1}
+      {2}{{{\color{numb}2}}}{1}
+      {3}{{{\color{numb}3}}}{1}
+      {4}{{{\color{numb}4}}}{1}
+      {5}{{{\color{numb}5}}}{1}
+      {6}{{{\color{numb}6}}}{1}
+      {7}{{{\color{numb}7}}}{1}
+      {8}{{{\color{numb}8}}}{1}
+      {9}{{{\color{numb}9}}}{1}
+      {:}{{{\color{punct}{:}}}}{1}
+      {,}{{{\color{punct}{,}}}}{1}
+      {\{}{{{\color{delim}{\{}}}}{1}
+      {\}}{{{\color{delim}{\}}}}}{1}
+      {[}{{{\color{delim}{[}}}}{1}
+      {]}{{{\color{delim}{]}}}}{1},
+}
 
 
 % *** GRAPHICS RELATED PACKAGES ***
@@ -372,8 +406,8 @@
 % paper title
 % can use linebreaks \\ within to get better formatting as desired
 \title{Detección automática de repeticiones parciales en repositorios digitales
-\\ 
-{\vspace{10mm} \large{Trabajo práctico final de la materia\\Bibliotecas y Repositorios Digitales\\Mayo 2020\\ \\Docente: Dra. Marisa R. de Giusti}}
+
+{\vspace{10mm} \large{Trabajo práctico final de la materia Bibliotecas y Repositorios Digitales Mayo 2020 Docente: Dra. Marisa R. de Giusti}}
 }
 
 
@@ -407,7 +441,7 @@
 %Eldon Tyrell\IEEEauthorrefmark{4}}
 %\IEEEauthorblockA{\IEEEauthorrefmark{1}School of Electrical and Computer Engineering\\
 %Georgia Institute of Technology,
-%Atlanta, Georgia 30332--0250\\ Email: see http://www.michaelshell.org/contact.html}
+%Atlanta, Georgia 30332--0250\Email: see http://www.michaelshell.org/contact.html}
 %\IEEEauthorblockA{\IEEEauthorrefmark{2}Twentieth Century Fox, Springfield, USA\\
 %Email: homer@thesimpsons.com}
 %\IEEEauthorblockA{\IEEEauthorrefmark{3}Starfleet Academy, San Francisco, California 96678-2391\\
@@ -427,12 +461,10 @@
 \maketitle
 
 
-
-
 \begin{abstract}
 %\boldmath
 A medida que crece el tamaño de los repositorios digitales y otros tipos de archivo digital, ya sea gestionados por instituciones públicas o empresas privadas en el transcurso de su funcionamiento diario, la posibilidad de verificar la ausencia de repeticiones en el contenido en forma manual y exhaustiva deja de ser posible. Las repeticiones puede ser maliciosas, como en la copia y el plagio, o involuntarias; en ambos casos, tanto la persecución de la calidad del contenido como la minimización del esfuerzo de conservación invitan a su detección temprana por medio de herramientas automáticas. 
-El caso más simple de repetición lo constituye una repetición total; más sutiles son los casos de repetición parcial, o no aparentes como dos archivos de audio en distinta calidad. Sin embargo, el primero dista de ser trivial si el tamaño del repositorio no es pequeño. No sólo los manuscritos son pasibles de repetición total y parcial, o diversos grados de similaridad, sino también muchos otros tipos de objetos digitales como el código fuente. Asimismo, dos colecciones pueden contener archivos a los fines prácticos completamente idénticos pero cuyos bitstreams difieren notoriamente. En este trabajo se reseñarán las técnicas utilizadas con éxito para la detección de repeticiones totales y parciales en repositorios digitales, con énfasis en el análisis de textos, y se discutirán los resultados de aplicar \todo{GERMÁN, COMPLETAR} sobre el repositorio del SEDICI.
+El caso más simple de repetición lo constituye una repetición total; más sutiles son los casos de repetición parcial, o no aparentes como dos archivos de audio en distinta calidad. Sin embargo, el primero dista de ser trivial si el tamaño del repositorio no es pequeño. No sólo los manuscritos son pasibles de repetición total y parcial, o diversos grados de similaridad, sino también muchos otros tipos de objetos digitales como el código fuente. Asimismo, dos colecciones pueden contener archivos a los fines prácticos completamente idénticos pero cuyos bitstreams difieren notoriamente. En este trabajo se reseñarán las técnicas utilizadas con éxito para la detección de repeticiones totales y parciales en repositorios digitales, con énfasis en el análisis de textos, y se discutirán los resultados de aplicar algoritmos de similitud de documentos y agrupamiento \emph{K-means} sobre metadatos recolectados del repositorio del SEDICI a través del protocolo de interoperabildad OAI-PMH.
 
 \end{abstract}
 % IEEEtran.cls defaults to using nonbold math in the Abstract.
@@ -490,7 +522,7 @@ Aunque a primera vista parezcan similares, los problemas de detección de duplic
 
 No sólo los manuscritos son pasibles de repetición total o parcial, o diversos grados de similaridad, sino también muchos otros tipos de objetos digitales. La repetición de código fuente es un problema en crecimiento que afecta sobre todo a las universidades, a medida que más estudiantes copian el software de otras tesis anteriores o de fuentes en internet \cite{smeureanu2013source}. Esta práctica no sólo reduce la calidad del resultado sino que también puede producir disputas de propiedad intelectual. Es claramente imposible buscar similaridades en el código fuente en forma manual, pero herramientas como \emph{OWL Web Ontology Language} \cite{bechhofer2004owl} -que un estándar W3- en combinación con el lenguaje de consulta SPARQL se han mostrado exitosas para eliminar y restringir, o al menos detectar tempranamente, el plagio de código fuente en tesis de grado, maestría, y doctorado \cite{smeureanu2013source}. Asimismo, dos colecciones pueden contener archivos a los fines prácticos completamente idénticos pero cuyos bitstreams difieren notoriamente. Dos archivos de audio en distinta calidad, dos imágenes idénticas en distintos formatos, dos documentos que sólo difieran en el título, ejemplifican posibles reiteraciones cuya detección, en los casos en los que fuera posible, demandaría ingenio y gran potencia de cómputo. \\
 
-En este trabajo se reseñarán las técnicas utilizadas con éxito para la detección de repeticiones totales y parciales en repositorios y bibliotecas digitales, con énfasis en el análisis de textos. En la sección \emph{Detección de archivos idénticos} se tratará brevemente el problema de detección de duplicaciones y dos ejemplos del mundo real en repositorios grandes. La sección \emph{Detección de repeticiones parciales de texto} tratará en mayor detalle la detección de objetos de texto similares pero no idénticos. La sección \emph{Detección de repeticiones en archivos multimedia} reseñará algunas técnicas para realizar la misma tarea en contenido audiovisual. Finalmente, en la sección \emph{Un estudio empírico sobre el repositorio del SEDICI} se discutirán los resultados de aplicar \todo{GERMÁN, COMPLETAR} sobre el repositorio del SEDICI. \\
+En este trabajo se reseñarán las técnicas utilizadas con éxito para la detección de repeticiones totales y parciales en repositorios y bibliotecas digitales, con énfasis en el análisis de textos. En la sección \emph{Detección de archivos idénticos} se tratará brevemente el problema de detección de duplicaciones y dos ejemplos del mundo real en repositorios grandes. La sección \emph{Detección de repeticiones parciales de texto} tratará en mayor detalle la detección de objetos de texto similares pero no idénticos. La sección \emph{Detección de repeticiones en archivos multimedia} reseñará algunas técnicas para realizar la misma tarea en contenido audiovisual. Finalmente, en la sección \emph{Un estudio empírico sobre el repositorio del SEDICI} se detallará la experiencia de recolectar metadatos de un proveedor de datos OAI-PMH, en particular del repositorio SEDICI y se discutirán los resultados obtenidos de aplicar algoritmos de similitud de documentos y agrupamiento \emph{K-means} sobre los resúmenes de los registros\\
 
 \section{Detección de archivos idénticos}
 
@@ -498,7 +530,7 @@ En \cite{van2008adore} se describen dos implantaciones de la arquitectura de fed
 
 Por este motivo, el uso de esquemas de identificación no basados en un protocolo permite definir una identidad global \cite{tansley2006building}. Cuando múltiples repositorios federados almacenan varias copias del mismo objeto y utilizan el mismo identificador interno no basado en la URL de acceso, todas pueden reconocerse sin ambigüedad; cosa que sería imposible al utilizar una URI dependiente del protocolo o de la localización. Es idéntico el escenario en el que un único repositorio guarda múltiples copias de un objeto con el mismo identificador, por lo que es interesante estudiar para este propósito esquemas como \emph{info}, \emph{ARK}, o \emph{tag}. \\
 
-Cuando no se cuenta con un esquema de identificación consistente, o el mismo es inadecuado para la tarea por motivos de implementación, se debe recurrir necesariamente a la generación de \emhp{hashes} para detección de archivos idénticos. Sin embargo, al ocuparse de objetos digitales de gran tamaño y colecciones de decenas de millones de objetos incluso este proceso puede resultar prohibitivo. Un enfoque basado en la fragmentación del \emph{byte stream} y la localización precisa de huellas únicas dependientes del tipo de archivo permite no sólo incrementar la escalabilidad sino reducir los tiempos de análisis y los costos del proceso de detección de repeticiones. \\
+Cuando no se cuenta con un esquema de identificación consistente, o el mismo es inadecuado para la tarea por motivos de implementación, se debe recurrir necesariamente a la generación de \emph{hashes} para detección de archivos idénticos. Sin embargo, al ocuparse de objetos digitales de gran tamaño y colecciones de decenas de millones de objetos incluso este proceso puede resultar prohibitivo. Un enfoque basado en la fragmentación del \emph{byte stream} y la localización precisa de huellas únicas dependientes del tipo de archivo permite no sólo incrementar la escalabilidad sino reducir los tiempos de análisis y los costos del proceso de detección de repeticiones. \\
 
 Por ejemplo, en \cite{forman2005finding} se describe la aplicación de un esquema de este tipo, capaz de descubrir documentos idénticos sin utilizar metadatos ni identificadores, sólo empleando pequeños fragmentos específicos al tipo de archivo y un algoritmo de partición de grafos. Este es aplicado a la fusión y limpieza periódica dentro de una colección de muchos millones de documentos técnicos y de soporte, cuyo versionado no es exhaustivo y entre los cuáles pueden aparecer duplicados y el mismo documento en múltiples formatos. Los autores enfatizan la necesidad de complementar la detección automática con una revisión manual posterior. \\
 
@@ -564,11 +596,41 @@ Es interesante destacar el método min-Hash pues este permite graduar la sensibi
 
 \section{Un estudio empírico sobre el repositorio del SEDICI}
 
-\todo{GERMÁN, COMPLETÁ}
+Se realizó un framework para recolectar de manera automática los metadatos expuestos por cualquier proveedor de datos que implemente OAI-PMH \cite{barrueco2003open}. El framework convierte los datos recuperados en el esquema Dublin Core en un pandas dataframe para ser manipulado fácilmente en el entorno de programación Python o bien salvados en un archivo local para su posterior análisis. Se utilizó la librería Sickle\cite{Sickle} para la correcta implementación del protocolo OAI-PMH. El código se encuentra disponile en \cite{repositorio} donde además se puede ver la corrida con los resultados que hemos obtenido dado que se implementó en un Jupyter Notebook.
+
+Se realizaron pruebas de recolección con el código propuesto utilizando proveedores de metadatos listados en buscadores como Sherpa o Roar. Para la presente demostración se decidió utilizar el provededor de metadatos del repositorio SEDICI —\emph{http://sedici.unlp.edu.ar/oai/snrd}—. Se hicieron pruebas en las que se llegó a descargar 100.000 registros en menos de 2 horas. En particular para el posterior análisis se decidió recuperar los registros de la colección \emph{Facultad de Informática}. Esto es porque es más probable encontrar repeticiones parciales dentro de una misma colección de registros del repositorio, y además es nuestro campo de investigación. En total se obtuvieron 1255 registros. A continuación se muestra un ejemplo de uno de los registros recolectados:
+
+\begin{lstlisting}[language=json,firstnumber=1]
+{'contributor': ['Bertone, Rodolfo Alfredo', u'Pessacq, Ra\xfal Adolfo'],
+ 'creator': [u'Beneforti, Mar\xeda Fernanda', u'Ainchil, Mar\xeda Virginia'],
+ 'date': ['2000'],
+ 'description': [u'El presente trabajo de grado surgio para canalizar inquietudes respecto del uso de la computadora en el aprendizaje. El objetivo inicial tuvo su origen en la idea de realizar un aporte para lograr mejorar el nivel de lectura y escritura de los estudiantes secundarios, en una forma amena, agil, con un medio atractivo o usual para ellos, como es la computadora; mediante algunos de los mejores textos literarios de ficci\xf3n de habla espa\xf1ola, su an\xe1lisis e interpretaci\xf3n. Las t\xe9cnicas que se han utilizado para llevar a cabo desarrollos inform\xe1ticos orientados al aprendizaje han sido diversas, siendo la hipermedia una de las que goza de mayor aceptaci\xf3n. Esta tecnolog\xeda proporciona caracter\xedsticas que resultan muy \xfatiles en el campo del aprendizaje por computadora, como son la interactividad, el uso de grandes bases de informaci\xf3n, la informaci\xf3n multimedia y la representaci\xf3n del conocimiento de forma similar a la forma de procesamiento de la informaci\xf3n del alumno.',
+  u'Facultad de Inform\xe1tica'],
+ 'format': ['application/pdf'],
+ 'identifier': ['http://sedici.unlp.edu.ar/handle/10915/3864'],
+ 'language': ['spa'],
+ 'rights': ['info:eu-repo/semantics/openAccess',
+  'http://creativecommons.org/licenses/by/4.0/',
+  'Creative Commons Attribution 4.0 International (CC BY 4.0)'],
+ 'subject': [u'Ciencias Inform\xe1ticas'],
+ 'title': [u'Hipermedia aplicada a la educacion : Sobre leer, escribir y demas yerbas'],
+ 'type': ['info:eu-repo/semantics/bachelorThesis',
+  'info:ar-repo/semantics/tesis de grado',
+  'info:eu-repo/semantics/acceptedVersion',
+  'Tesis de grado']}
+\end{lstlisting}
+\subsection{Explotación de metadatos recolectados}
+
+Con los registros recolectados se levaró a cabo una conversión al formato pandas dataframe para pdoer manipularlos en el entorno Python preprocesamiento de textos para su posterior explotación. El primer objetivo del análisis fue encontrar repeticiones parciales en los resúmenes de los registros recolectados. Para ello se realízó un preprocesamiento del texto de cada uno de los resúmenes de los registros donde se removieron las puntuaciones, palabras de parada —o \emph{stopwords} en inglés— y se normalizaron los datos. Para encontrar la similitud entre los documentos se utilizó el algoritmo de vectorización de texto TF-IDF \cite{tata2007estimating} y la distancia basada en coseno entre los vectores. \\
+
+El algoritmo retorna el grado de similitud entre todos los documentos con valores entre 1 y 0, donde 1 significa que ambos documentos son idénticos o casi ideénticos, y 0 que no tienen relación alguna. Los resultados fueron muy satisfactorios: con grados de similaridad igual mayor o igual a 0.9 se encontraron todos registros con dos entradas o identificadores en el repositorio pero que son en realidad versiones de un mismo trabajo original. Son ejemplos los trabajos \href{http://sedici.unlp.edu.ar/handle/10915/47082} y \href{http://sedici.unlp.edu.ar/handle/10915/59939}; Con grados de similitud entre 0.7 y 0.8 las cosas se vuelven más interesantes. Se encontraron trabajos donde el primer registro era la versión original y el segundo una versión similar pero actualizada o extendida del primer trabajo, son ejemplos los trabajos \href{http://sedici.unlp.edu.ar/handle/10915/84612} y \href{http://sedici.unlp.edu.ar/handle/10915/86707}.
+
+
+Por último se aplicó el algoritmo de agrupamiento \emph{K-means} usando los vectores TF-IDF y la similitud del coseno para obtener grupos de registros que compartan características comunes \cite{trstenjak2014knn}. Se calcularon 15 clústers que se pueden ver en el Jupyter Notebook publicado en el repositorio Github del trabajo. Se observa que el algoritmo pareciera agrupar artículos relacionados con simulaciones en el clúster 1, libros en el clúster 0 y artículos sobre sistemas operativos en el clúster 14. Sin embargo, no son tan claros los clústers para afirmar qué características tiene cada uno de ellos, sí pareciera confirmarse que existe cierta relación entre los registros agrupados.
 
 \section{Conclusiones}
 
-\todo{GERMÁN, COMPLETÁ}
+A lo largo del trabajo se ha logrado presentar las técnicas utilizadas con éxito para la detección de repeticiones totales y parciales en repositorios digitales, con énfasis en el análisis de textos, y se realizó un framework de recolección de metadatos a través del protocolo de interoperabildad OAI-PMH. Con el framework desarrollado se extrajo un conjunto de metadatos del repositorio SEDICI y se aplicaron exitosamente algoritmos de similitud de documentos y agrupamiento \emph{K-means}. Con el algoritmo propuesto se logró encontrar repeticiones totales y totales dentro del conjunto de registros de la \emph{Facultad de Informática}. 
 
 \bibliographystyle{IEEEtran}
 \bibliography{IEEEabrv,lnitemplate,propia}
